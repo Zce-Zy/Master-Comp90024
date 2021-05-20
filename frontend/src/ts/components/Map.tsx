@@ -1,15 +1,15 @@
 import React, { Component } from "react";
-import GoogleMapReact from "google-map-react";
+import GoogleMapReact, { ClickEventValue } from "google-map-react";
 import { GOOGLE_MAP_API_KEY } from "../configurations/google";
 import { connect } from "react-redux";
 import { inspect } from "util";
 import { Dispatch } from "redux";
 
-import { ICoordinate } from "../interfaces/Map";
+import { IClickedInfo, ICoordinate } from "../interfaces/Map";
 import { GEOJSON_URL, ZOOM_BOUNDARY } from "../constants/map";
 import mapStyle from "../constants/mapStyle";
 import { IState } from "../reducers";
-import { updateMapCenterAndZoom } from "../actions/map";
+import { reverseGeocoding, updateMapCenterAndZoom } from "../actions/map";
 import { capitalizeString } from "../utils/string";
 
 interface IMapOwnProps {}
@@ -21,6 +21,7 @@ interface IMapStateProps {
 
 interface IMapDispatchProps {
   updateMapCenterAndZoom: (center: ICoordinate, zoom: number) => void;
+  getTheLocationInfo: (clickedLocationInfo: IClickedInfo) => void;
 }
 
 interface IMapProps extends IMapOwnProps, IMapStateProps, IMapDispatchProps {}
@@ -94,7 +95,8 @@ class MapComponent extends Component<IMapProps> {
   // };
 
   render() {
-    const { center, zoom, updateMapCenterAndZoom } = this.props;
+    const { center, zoom, updateMapCenterAndZoom, getTheLocationInfo } =
+      this.props;
     return (
       <GoogleMapReact
         yesIWantToUseGoogleMapApiInternals
@@ -115,13 +117,7 @@ class MapComponent extends Component<IMapProps> {
           );
           updateMapCenterAndZoom(center, zoom);
         }}
-        onClick={(value) => {
-          console.log("onClick trigerred, value =", value);
-          // this.getLocationInfo(value);
-          // if (hideComparisonPanel) {
-          //   hideComparisonPanel();
-          // }
-        }}
+        onClick={getTheLocationInfo}
         onGoogleApiLoaded={({ map, maps }) => this.handleMapApiLoad(map, maps)}
       ></GoogleMapReact>
     );
@@ -138,6 +134,8 @@ const mapDispatchToProps = (dispatch: Dispatch): IMapDispatchProps => {
   return {
     updateMapCenterAndZoom: (center, zoom) =>
       dispatch(updateMapCenterAndZoom(center, zoom)),
+    getTheLocationInfo: (clickedLocationInfo: IClickedInfo) =>
+      reverseGeocoding(clickedLocationInfo)(dispatch),
   };
 };
 

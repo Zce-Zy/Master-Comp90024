@@ -12,3 +12,9 @@ export interface IMapInfo {
   center: ICoordinate;
   zoom: number;
 }
+
+export interface IClickedInfo extends ICoordinate {
+  x: number;
+  y: number;
+  address?: any;
+}
