@@ -15,9 +15,9 @@ export default [
       {
         saturation: 36,
       },
-      {
-        color: "#000000",
-      },
+      // {
+      //   color: "#000000",
+      // },
       {
         lightness: 40,
       },
@@ -30,9 +30,9 @@ export default [
       {
         visibility: "on",
       },
-      {
-        color: "#000000",
-      },
+      // {
+      //   color: "#000000",
+      // },
       {
         lightness: 16,
       },
@@ -51,9 +51,9 @@ export default [
     featureType: "administrative",
     elementType: "geometry.fill",
     stylers: [
-      {
-        color: "#000000",
-      },
+      // {
+      //   color: "#000000",
+      // },
       {
         lightness: 20,
       },
@@ -63,9 +63,9 @@ export default [
     featureType: "administrative",
     elementType: "geometry.stroke",
     stylers: [
-      {
-        color: "#000000",
-      },
+      // {
+      //   color: "#000000",
+      // },
       {
         lightness: 17,
       },
@@ -96,9 +96,9 @@ export default [
     featureType: "landscape",
     elementType: "geometry",
     stylers: [
-      {
-        color: "#000000",
-      },
+      // {
+      //   color: "#000000",
+      // },
       {
         lightness: 20,
       },
@@ -108,9 +108,9 @@ export default [
     featureType: "poi",
     elementType: "geometry",
     stylers: [
-      {
-        color: "#000000",
-      },
+      // {
+      //   color: "#000000",
+      // },
       {
         lightness: 21,
       },
@@ -177,9 +177,9 @@ export default [
     featureType: "road.arterial",
     elementType: "geometry",
     stylers: [
-      {
-        color: "#000000",
-      },
+      // {
+      //   color: "#000000",
+      // },
       {
         lightness: 18,
       },
@@ -216,9 +216,9 @@ export default [
     featureType: "road.local",
     elementType: "geometry",
     stylers: [
-      {
-        color: "#000000",
-      },
+      // {
+      //   color: "#000000",
+      // },
       {
         lightness: 16,
       },
@@ -246,9 +246,9 @@ export default [
     featureType: "transit",
     elementType: "geometry",
     stylers: [
-      {
-        color: "#000000",
-      },
+      // {
+      //   color: "#000000",
+      // },
       {
         lightness: 19,
       },
@@ -258,9 +258,9 @@ export default [
     featureType: "water",
     elementType: "geometry",
     stylers: [
-      {
-        color: "#000000",
-      },
+      // {
+      //   color: "#000000",
+      // },
       {
         lightness: 17,
       },
