@@ -7,4 +7,5 @@ export const INITIAL_CENTER: ICoordinate = {
 };
 
 export const GEOJSON_URL: string =
-  "https://elasticbeanstalk-ap-southeast-2-144912544139.s3-ap-southeast-2.amazonaws.com/vic_sa4.geojson";
+  "https://data.gov.au/geoserver/vic-local-government-areas-psma-administrative-boundaries/wfs?request=GetFeature&typeName=ckan_bdf92691_c6fe_42b9_a0e2_a4cd716fa811&outputFormat=json";
+// "https://elasticbeanstalk-ap-southeast-2-144912544139.s3-ap-southeast-2.amazonaws.com/vic_sa4.geojson";
