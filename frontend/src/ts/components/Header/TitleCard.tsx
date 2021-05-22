@@ -24,9 +24,7 @@ export const TitleCard = ({ title }: ITitlCardProp) => {
       {isExpanded && (
         <>
           <div className="content">
-            <p>Card content</p>
-            <p>Card content</p>
-            <p>Card content</p>
+            <div>Content Placeholder</div>
           </div>
           <div className="footer" onClick={() => setIsExpanded(!isExpanded)}>
             <FontAwesomeIcon icon={faAngleDoubleUp} size={"lg"} />

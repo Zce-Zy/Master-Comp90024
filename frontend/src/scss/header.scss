@@ -1,7 +1,7 @@
 $card-head-height: 28px;
 $card-body-height: calc(
-  100% - #{$card-head-height} - 1rem
-); // - 1rem as there is no padding bottom.
+  100% - #{$card-head-height} - 0.5rem
+); // - 0.5rem as we have a 0.5rem margin-top for the body.
 
 header {
   font-size: 1.5rem;
@@ -44,8 +44,8 @@ header {
       .ant-card-body {
         font-size: initial;
         height: $card-body-height;
-
         $card-content-height: 90%;
+        margin-top: 0.5rem;
 
         .content {
           height: $card-content-height;
