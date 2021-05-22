@@ -1,4 +1,4 @@
-import { INITIAL_CENTER, ZOOM_BOUNDARY } from "../constants/map";
+import { DEFAULT_ZOOM, INITIAL_CENTER } from "../constants/map";
 import { IClickedInfo, ICoordinate } from "../interfaces/Map";
 import { IAction } from "../interfaces/action";
 import {
@@ -14,7 +14,7 @@ export interface IMapState {
 
 const INIT_STATE: IMapState = {
   center: INITIAL_CENTER,
-  zoom: ZOOM_BOUNDARY.min,
+  zoom: DEFAULT_ZOOM,
   lastClickedInfo: null,
 };
 

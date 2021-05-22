@@ -1,5 +1,6 @@
 import { ICoordinate, IZoomBoundary } from "../interfaces/Map";
 
+export const DEFAULT_ZOOM: number = 8;
 export const ZOOM_BOUNDARY: IZoomBoundary = { min: 7, max: 12 };
 export const INITIAL_CENTER: ICoordinate = {
   lng: 145.3327648384119,

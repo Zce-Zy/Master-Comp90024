@@ -1,11 +1,12 @@
 import React from "react";
+import { Header } from "./Header";
 
 import { Map } from "./Map";
 
 function App() {
   return (
     <div className="App">
-      {/* <header className="App-header">Hello world</header> */}
+      <Header />
       <Map />
     </div>
   );
