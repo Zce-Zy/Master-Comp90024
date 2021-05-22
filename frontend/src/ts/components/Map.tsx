@@ -11,12 +11,16 @@ import mapStyle from "../constants/mapStyle";
 import { IState } from "../reducers";
 import { reverseGeocoding, updateMapCenterAndZoom } from "../actions/map";
 import { capitalizeString } from "../utils/string";
+import { getStateShortName } from "../utils/googleMap";
+import { MapMarker } from "./MapMarker";
 
 interface IMapOwnProps {}
 
 interface IMapStateProps {
   center: ICoordinate;
   zoom: number;
+  showMarker: boolean;
+  lastClickedInfo: IClickedInfo | null;
 }
 
 interface IMapDispatchProps {
@@ -95,39 +99,56 @@ class MapComponent extends Component<IMapProps> {
   // };
 
   render() {
-    const { center, zoom, updateMapCenterAndZoom, getTheLocationInfo } =
-      this.props;
+    const {
+      center,
+      zoom,
+      showMarker,
+      lastClickedInfo,
+      updateMapCenterAndZoom,
+      getTheLocationInfo,
+    } = this.props;
     return (
-      <GoogleMapReact
-        yesIWantToUseGoogleMapApiInternals
-        bootstrapURLKeys={{ key: GOOGLE_MAP_API_KEY }}
-        defaultCenter={center}
-        defaultZoom={zoom}
-        options={{
-          gestureHandling: "greedy",
-          zoomControl: true,
-          fullscreenControl: false,
-          maxZoom: ZOOM_BOUNDARY.max,
-          minZoom: ZOOM_BOUNDARY.min,
-          styles: mapStyle,
-        }}
-        onChange={({ zoom, center }) => {
-          console.log(
-            `onChange trigerred, zoom = ${zoom}, center = ${inspect(center)}`
-          );
-          updateMapCenterAndZoom(center, zoom);
-        }}
-        onClick={getTheLocationInfo}
-        onGoogleApiLoaded={({ map, maps }) => this.handleMapApiLoad(map, maps)}
-      ></GoogleMapReact>
+      <div id="map-container">
+        <GoogleMapReact
+          yesIWantToUseGoogleMapApiInternals
+          bootstrapURLKeys={{ key: GOOGLE_MAP_API_KEY }}
+          defaultCenter={center}
+          defaultZoom={zoom}
+          options={{
+            gestureHandling: "greedy",
+            zoomControl: true,
+            fullscreenControl: false,
+            maxZoom: ZOOM_BOUNDARY.max,
+            minZoom: ZOOM_BOUNDARY.min,
+            styles: mapStyle,
+          }}
+          onChange={({ zoom, center }) => {
+            console.log(
+              `onChange trigerred, zoom = ${zoom}, center = ${inspect(center)}`
+            );
+            updateMapCenterAndZoom(center, zoom);
+          }}
+          onClick={getTheLocationInfo}
+          onGoogleApiLoaded={({ map, maps }) =>
+            this.handleMapApiLoad(map, maps)
+          }
+        >
+          {showMarker && (
+            <MapMarker lat={lastClickedInfo!.lat} lng={lastClickedInfo!.lng} />
+          )}
+        </GoogleMapReact>
+      </div>
     );
   }
 }
 
 const mapStateToProps = (state: IState): IMapStateProps => {
-  const { center, zoom } = state.map;
+  const { center, zoom, lastClickedInfo } = state.map;
+  const showMarker: boolean =
+    (lastClickedInfo && getStateShortName(lastClickedInfo.address) === "VIC") ??
+    false;
 
-  return { center, zoom };
+  return { center, zoom, showMarker, lastClickedInfo };
 };
 
 const mapDispatchToProps = (dispatch: Dispatch): IMapDispatchProps => {

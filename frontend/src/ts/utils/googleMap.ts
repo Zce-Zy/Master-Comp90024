@@ -53,3 +53,17 @@ export function getCityName(address: any, getLongName = true) {
 export function getStateAddressObject(address: any) {
   return getAddressWithType(address, "administrative_area_level_1");
 }
+
+export function getStateName(address: any, getLongName = true) {
+  const stateAddressObject = getStateAddressObject(address);
+  if (stateAddressObject) {
+    const components = stateAddressObject.address_components[0];
+    return getLongName ? components.long_name : components.short_name;
+  }
+
+  return "";
+}
+
+export function getStateShortName(address: any) {
+  return getStateName(address, false);
+}

@@ -4,67 +4,15 @@ $card-body-height: calc(
 ); // - 0.5rem as we have a 0.5rem margin-top for the body.
 
 header {
+  height: 3rem;
   font-size: 1.5rem;
-  padding: 0 1rem;
+  padding: 0.5rem 1rem;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: absolute;
-  z-index: 1;
-  color: #4e4e4e;
-  position: fixed;
-  top: 1rem;
-
-  &:first-of-type {
-    text-shadow: 3px 3px 10px grey;
-  }
-
-  .ant-input-search .ant-input-search-button {
-    background-color: rgba(163, 163, 163, 1);
-    border-color: rgba(163, 163, 163, 1);
-  }
-
-  .ant-card {
-    cursor: pointer;
-    padding: 1rem 1rem 0 1rem;
-    width: 40%;
-
-    &.expanded {
-      cursor: initial;
-      background-color: rgba(255, 255, 255, 0.95);
-      border-radius: 5px;
-      text-shadow: none;
-      height: 40vh;
-
-      .ant-card-head {
-        height: $card-head-height;
-      }
-
-      .ant-card-body {
-        font-size: initial;
-        height: $card-body-height;
-        $card-content-height: 90%;
-        margin-top: 0.5rem;
-
-        .content {
-          height: $card-content-height;
-        }
-
-        .footer {
-          height: calc(100% - #{$card-content-height});
-          display: flex;
-          align-items: center;
-          justify-content: center;
-
-          &:hover {
-            cursor: pointer;
-            background: #cccccc;
-            margin: 0 -1rem;
-            color: white;
-          }
-        }
-      }
-    }
-  }
+  position: relative;
+  background-color: black;
+  color: white;
+  box-shadow: 0px 4px 11px 2px rgba(163, 163, 163, 1);
 }
