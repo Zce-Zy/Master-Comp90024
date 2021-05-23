@@ -14,6 +14,18 @@ const INIT_STATE: IXHRState = {
       positive: 19401,
       negative: 7440,
     },
+    crimeRates: [
+      { year: 2020, totalCount: 36530.0, ratePer100000population: 19482.6 },
+      { year: 2019, totalCount: 36315.0, ratePer100000population: 20292.8 },
+      { year: 2018, totalCount: 36138.0, ratePer100000population: 21218.1 },
+      { year: 2017, totalCount: 36463.0, ratePer100000population: 22912.4 },
+      { year: 2016, totalCount: 37855.0, ratePer100000population: 25911.0 },
+      { year: 2015, totalCount: 34395.0, ratePer100000population: 25129.3 },
+      { year: 2014, totalCount: 33040.0, ratePer100000population: 25817.5 },
+      { year: 2013, totalCount: 32474.0, ratePer100000population: 27355.5 },
+      { year: 2012, totalCount: 34757.0, ratePer100000population: 32308.7 },
+      { year: 2011, totalCount: 29659.0, ratePer100000population: 29588.0 },
+    ],
   },
 };
 

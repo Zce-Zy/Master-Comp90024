@@ -104,63 +104,6 @@ export function extractDataByTypeFromOverview(
   return [aggregatedData, mostRecentDate];
 }
 
-export function extractAllDataByDateFromOverview(
-  overviewData: any,
-  targetState = "",
-  datesRange = [],
-  absoluteData = true,
-  skipTested = true
-) {
-  const dataIndex = absoluteData ? 0 : 1;
-  let flattenData: any[] = [];
-
-  const [startDate, endDate] = extractStartAndEndDateFromArray(datesRange);
-
-  for (let date in overviewData) {
-    const dateObj = new Date(date);
-    if (startDate && dateObj < new Date(startDate)) {
-      continue;
-    }
-    if (endDate && dateObj > new Date(endDate)) {
-      continue;
-    }
-
-    for (let state in overviewData[date]) {
-      if (targetState === "" || targetState === state) {
-        for (let type in overviewData[date][state]) {
-          if (skipTested && type === "Tested") {
-            continue;
-          }
-
-          const recordedObject = flattenData.find(
-            (recordedData) => recordedData.date === date
-          );
-
-          const unchangedRecords = flattenData.filter(
-            (recordedData) => recordedData.date !== date
-          );
-
-          let number = recordedObject ? recordedObject[type] || 0 : 0;
-          if (type === "Tested") {
-            number += overviewData[date][state][type];
-          } else {
-            number += overviewData[date][state][type][dataIndex];
-          }
-
-          flattenData = [
-            ...unchangedRecords,
-            { ...recordedObject, date, [type]: number },
-          ];
-        }
-      }
-    }
-  }
-
-  // console.log("flattenData =", flattenData);
-
-  return flattenData;
-}
-
 export function extractMostRecentDataOfStateByCategory(
   overviewData: any,
   targetingCategory: any,

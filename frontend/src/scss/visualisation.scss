@@ -2,12 +2,7 @@ section#visualisation {
   padding: 1rem;
 }
 
-.data-category-selector span,
-.data-type-switch span {
-  margin-right: 0.5rem;
-}
-
-.aurin-card .ant-card-body {
+.ant-card-body {
   display: flex;
   flex-direction: row;
 
@@ -34,7 +29,7 @@ section#visualisation {
   flex-wrap: wrap;
 }
 
-.aurin-card .data-presentation {
+.data-presentation {
   width: 50%;
 }
 
@@ -48,4 +43,16 @@ section#visualisation {
 
 .tweet-card .data-presentation {
   width: 30%;
+}
+
+.crime-rate-card #data-type-selector {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 2rem;
+  margin-bottom: 1rem;
+
+  span {
+    margin-right: 0.5rem;
+  }
 }
