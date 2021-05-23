@@ -1,0 +1,17 @@
+{
+  "_id": "_design/CountOrSum",
+  "views": {
+    "CountTweetslga_name": {
+      "reduce": "_count",
+      "map": "function (doc) {\n  emit(doc.lga_name, 1);\n}"
+    },
+    "CountTweetscity_name": {
+      "reduce": "_count",
+      "map": "function (doc) {\n  emit(doc.city_name, 1);\n}"
+    },
+    "CountTweetID": {
+      "map": "function (doc) {\n  emit(doc.tweet_id, 1);\n}"
+    }
+  },
+  "language": "javascript"
+}
