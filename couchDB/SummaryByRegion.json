@@ -1,0 +1,14 @@
+{
+  "_id": "_design/SummaryByRegion",
+  "views": {
+    "Count_BylgaNameYearSentimentType": {
+      "reduce": "_count",
+      "map": "function (doc) {\n  emit([doc.lga_name, doc.year, doc.sentiment_type], 1);\n}"
+    },
+    "SentimentScoreStat_BylgaNameTime": {
+      "reduce": "_stats",
+      "map": "function (doc) {\n  emit([doc.lga_name, doc.year, doc.month], doc.sentiment_score);\n}"
+    }
+  },
+  "language": "javascript"
+}
