@@ -1,8 +1,9 @@
-@import '~antd/dist/antd.css';
+@import "~antd/dist/antd.css";
 @import "./antd.scss";
 @import "./header.scss";
 @import "./map.scss";
 @import "./visualisation.scss";
+@import "./spin.scss";
 
 body {
   margin: 0;
