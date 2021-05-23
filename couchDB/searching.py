@@ -130,7 +130,7 @@ def get_info(tweets_v1):
                 info = sentiment_score(text_string)
                 tweet_dic['sentiment_type'] = info[2]  # type_sentiment
                 tweet_dic['sentiment_score'] = info[0]  # sentiment_score
-                tweet_dic['subjectivity'] = info[1] # subjectivity
+                # tweet_dic['subjectivity'] = info[1]
                 # tweet_dic['text'] = text_string
             else:
                 pass
