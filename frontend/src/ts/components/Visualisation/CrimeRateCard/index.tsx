@@ -19,6 +19,7 @@ import {
   CRIME_RATE_LABEL_DETAILS,
   TOTAL_COUNT_VALUE,
 } from "../../../constants/crimeRates";
+import { composeTitle } from "../../../utils/titleHelper";
 
 interface ICrimeRateCardOwnProps {}
 
@@ -37,18 +38,17 @@ const CrimeRateCardComponent = ({
   stateName,
   data,
 }: ICrimeRateCardProps) => {
-  let title = "Crime Rates from 2011 to 2020";
-  if (cityName && stateName) {
-    title = `${title} - ${cityName}, ${stateName}`;
-  }
+  const title = composeTitle(
+    "Crime Rates from 2011 to 2020",
+    stateName,
+    cityName
+  );
 
   const [dataType, setDataType] = useState(TOTAL_COUNT_VALUE);
 
   return (
     <Card hoverable className="col-6 crime-rate-card" title={title}>
-      <div style={{ height: "90%", width: "100%" }}>
-        {/* {renderDataTypeSelector(setDataType)} */}
-
+      <div className="visualisation-container">
         <DataTypeSelector handleChange={setDataType} />
 
         <ResponsiveContainer>

@@ -2,6 +2,7 @@ import React from "react";
 import { Col, Row } from "antd";
 import { SentimentCard } from "./SentimentCard";
 import { CrimeRateCard } from "./CrimeRateCard";
+import { UnemploymentRateCard } from "./UnemploymentRateCard";
 
 export const Visualisation = () => {
   return (
@@ -12,6 +13,9 @@ export const Visualisation = () => {
         </Col>
         <Col span={12}>
           <CrimeRateCard />
+        </Col>
+        <Col span={12}>
+          <UnemploymentRateCard />
         </Col>
       </Row>
     </section>

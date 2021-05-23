@@ -13,6 +13,7 @@ import { getCityName, getStateName } from "../../utils/googleMap";
 import { capitalizeString } from "../../utils/string";
 import { IState } from "../../reducers/index";
 import { ISentiment } from "../../interfaces/overview";
+import { composeTitle } from "../../utils/titleHelper";
 
 interface ISentimentCardOwnProps {}
 
@@ -117,13 +118,10 @@ const SentimentCardComponent = ({
   stateName,
   sentiment,
 }: ISentimentCardProps) => {
-  const [activeIndex, setActiveIndex] = useState(0);
-  console.log("In SentimentCard, sentiment =", sentiment);
+  // console.log("In SentimentCard, sentiment =", sentiment);
 
-  let title = "Tweet Sentiment Data";
-  if (cityName && stateName) {
-    title = `${title} - ${cityName}, ${stateName}`;
-  }
+  const [activeIndex, setActiveIndex] = useState(0);
+  const title = composeTitle("Tweet Sentiment Data", stateName, cityName);
 
   if (!sentiment || !Object.keys(sentiment).length) {
     return (

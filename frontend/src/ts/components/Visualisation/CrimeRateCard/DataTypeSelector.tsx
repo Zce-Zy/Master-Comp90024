@@ -13,7 +13,7 @@ interface IDataTypeSelectorProps {
 
 export const DataTypeSelector = ({ handleChange }: IDataTypeSelectorProps) => {
   return (
-    <div id="data-type-selector">
+    <div className="visualisation-selector">
       <span>Data Type: </span>
       <Select
         defaultValue={TOTAL_COUNT_VALUE}

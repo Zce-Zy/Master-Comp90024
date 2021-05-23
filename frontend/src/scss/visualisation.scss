@@ -2,9 +2,26 @@ section#visualisation {
   padding: 1rem;
 }
 
+.visualisation-container {
+  height: 90%;
+  width: 100%;
+}
+
 .ant-card-body {
   display: flex;
   flex-direction: row;
+
+  .visualisation-selector {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 2rem;
+    margin-bottom: 1rem;
+
+    span {
+      margin-right: 0.5rem;
+    }
+  }
 
   .empty-data-cover {
     position: absolute;
@@ -43,16 +60,4 @@ section#visualisation {
 
 .tweet-card .data-presentation {
   width: 30%;
-}
-
-.crime-rate-card #data-type-selector {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  height: 2rem;
-  margin-bottom: 1rem;
-
-  span {
-    margin-right: 0.5rem;
-  }
 }
