@@ -29,18 +29,15 @@ password = 'pass'
 couchServer = collect_server(user, password)
 db = get_database(couchServer, 'tweets_dic')
 
-old_tweet_zip = 'old_data.json.zip'
-with zipfile.ZipFile(old_tweet_zip, "r") as z:
-    for filename in z.namelist():
-        print(filename)
-        with z.open(filename) as f:
-            input_data = f.read()
-            data = json.loads(input_data)
-            for i in range(0, len(data['docs'])):
-                index = i
-                string = data['docs'][index]
-                db.save(string)
-            print('finished upload process. end :)')
+old_tweet_file = 'old_data.json'
+with open(old_tweet_file) as f:
+    data = json.load(f)
+    print('start upload tweets')
+    for i in range(0, len(data['docs'])):
+        index = i
+        string = data['docs'][index]
+        db.save(string)
+    print('finished upload process. end :)')
             
 #######################################################################
 # upload views
