@@ -11,6 +11,22 @@
     },
     "CountTweetID": {
       "map": "function (doc) {\n  emit(doc.tweet_id, 1);\n}"
+    },
+    "CountTweetsByHours": {
+      "map": "function (doc) {\n  emit(doc.hours, 1);\n}",
+      "reduce": "_count"
+    },
+    "CountTweetsByMonths": {
+      "map": "function (doc) {\n  emit(doc.month, 1);\n}",
+      "reduce": "_count"
+    },
+    "CountTweetsByYears": {
+      "map": "function (doc) {\n  emit(doc.year, 1);\n}",
+      "reduce": "_count"
+    },
+    "CountTweetsBySentimentTypes": {
+      "reduce": "_count",
+      "map": "function (doc) {\n  emit(doc.sentiment_type, 1);\n}"
     }
   },
   "language": "javascript"
