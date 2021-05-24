@@ -166,8 +166,8 @@ const SentimentCardComponent = ({
           {sum}
         </p>
       </div>
-      <ResponsiveContainer height={"100%"} width={"70%"}>
-        <RechartPie width={550} height={150} margin={{ left: 50, right: 50 }}>
+      <ResponsiveContainer height={"100%"} width={"100%"}>
+        <RechartPie height={150} margin={{ left: 150, right: 150 }}>
           <Pie
             data={data}
             dataKey="value"

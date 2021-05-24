@@ -58,6 +58,14 @@ section#visualisation {
   display: flex;
 }
 
-.tweet-card .data-presentation {
-  width: 30%;
+.tweet-card {
+  .ant-card-body {
+    display: flex;
+    flex-direction: column;
+
+    .data-presentation {
+      width: 100%;
+      height: 10%;
+    }
+  }
 }
