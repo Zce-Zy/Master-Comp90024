@@ -112,7 +112,7 @@ const renderActiveShape = (props: any) => {
         textAnchor={textAnchor}
         fill="#333"
       >
-        {`${(percent * 100).toFixed(2)}%`}
+        {`${(percent * 100)?.toFixed(2)}%`}
       </text>
     </g>
   );
@@ -167,7 +167,7 @@ const SentimentCardComponent = ({
         </p>
       </div>
       <ResponsiveContainer height={"100%"} width={"70%"}>
-        <RechartPie width={400} height={150} margin={{ left: 50, right: 50 }}>
+        <RechartPie width={550} height={150} margin={{ left: 50, right: 50 }}>
           <Pie
             data={data}
             dataKey="value"

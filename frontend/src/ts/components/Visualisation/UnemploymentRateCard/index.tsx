@@ -98,7 +98,7 @@ const UnemploymentRateCardComponent = ({
             <YAxis dataKey="quarter" type="category" width={80} />
             <Tooltip
               formatter={(value: number, name: string, props: any) => [
-                value.toFixed(2),
+                value?.toFixed(2),
                 getQuarterLabel(props.payload.quarter),
               ]}
             />
