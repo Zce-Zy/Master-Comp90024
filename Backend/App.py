@@ -3,7 +3,7 @@
 #2020/05/11
 
 
-from flask import Flask
+from flask import Flask, render_template
 from flask_restful import abort, Api, Resource
 import pandas as pd
 import DBdata
@@ -23,16 +23,16 @@ def abort_if_notexit(Lganame):
     if Lganame not in Lgadata:
         abort(404, message="Can not find {} data".format(Lganame))
 
-@app.route('/', methods=['GET'])
-def home():
-    return "<h1>Group25 Data API</h1><p>This site is a prototype API for Tweet Data.</p>"
+# render the index.html
+@app.route('/')
+@app.route('/index')
+def index():
+    return render_template('index.html')
 
 
 @app.route('/api/overview', methods=['GET'], endpoint = "overview")
 def get_data():
         return Lgadata
-
-
 
 #Lga Sentiment data
 class Lga_Senti_Overview(Resource):
@@ -48,7 +48,6 @@ class Lga_Senti_OverviewInd(Resource):
         return data
 
 
-#//TODO
 ##Have not change the data rigth now
 ##Sentiment data overall
 api.add_resource(Lga_Senti_Overview, '/api/Lga_Senti_Overview')
