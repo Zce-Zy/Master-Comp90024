@@ -7,7 +7,7 @@
     },
     "SentimentScoreStat_BylgaNameTime": {
       "reduce": "_stats",
-      "map": "function (doc) {\n  emit([doc.lga_name, doc.year, doc.month], doc.sentiment_score);\n}"
+      "map": "function (doc) {\n  emit([doc.lga_name, doc.year, doc.hours], doc.sentiment_score);\n}"
     }
   },
   "language": "javascript"
