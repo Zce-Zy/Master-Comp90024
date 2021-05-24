@@ -187,7 +187,10 @@ const SentimentCardComponent = ({
 };
 
 const mapStateToProps = (state: IState) => {
-  const sentiment = state.xhr?.overview?.sentiment ?? null;
+  let sentiment = state.xhr?.lgaData?.sentiment ?? null;
+  if (!sentiment) {
+    sentiment = state.xhr?.overview?.sentiment ?? null;
+  }
 
   const { lastClickedInfo } = state.map;
 

@@ -87,7 +87,11 @@ const CrimeRateCardComponent = ({
 
 const mapStateToProps = (state: IState): ICrimeRateCardStateProps => {
   const { lastClickedInfo } = state.map;
-  let unsortedData = state.xhr.overview?.crimeRates ?? [];
+
+  let unsortedData = state.xhr?.lgaData?.crimeRates ?? [];
+  if (!unsortedData.length) {
+    unsortedData = state.xhr?.overview?.crimeRates ?? [];
+  }
 
   let cityName = "";
   let stateName = "";

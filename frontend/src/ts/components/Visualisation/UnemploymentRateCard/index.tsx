@@ -123,7 +123,11 @@ const UnemploymentRateCardComponent = ({
 
 const mapStateToProps = (state: IState) => {
   const { lastClickedInfo } = state.map;
-  let unsortedData = state.xhr.overview?.unemploymentRates ?? [];
+
+  let unsortedData = state.xhr?.lgaData?.unemploymentRates ?? [];
+  if (!unsortedData.length) {
+    unsortedData = state.xhr?.overview?.unemploymentRates ?? [];
+  }
 
   let cityName = "";
   let stateName = "";

@@ -4,7 +4,10 @@ import { Dispatch } from "redux";
 import {
   builtReverseGeocodingUrl,
   getCityAddressObject,
+  getCityName,
+  getStateShortName,
 } from "../utils/googleMap";
+import { getDataOfLGA } from "./xhr";
 
 export const UPDATE_MAP_CENTER_AND_ZOOM: string = "UPDATE_MAP_CENTER_AND_ZOOM";
 export const UPDATE_LAST_CLICKED_INFO: string = "UPDATE_LAST_CLICKED_INFO";
@@ -48,5 +51,10 @@ export const reverseGeocoding =
           getCityAddressObject(address)
         );
         dispatch(updateLastClickedInfo({ lat, lng, x, y, address }));
+
+        const cityName = getCityName(address, false);
+        if (address && getStateShortName(address) === "VIC") {
+          getDataOfLGA(cityName)(dispatch);
+        }
       });
   };
