@@ -7,7 +7,7 @@ import numpy as np
 
 couch = couchdb.Server('http://user:pass@127.0.0.1:5984')
 db = couch['wh_db']
-city_location = pd.read_json('AURData/suburb-geo-lga-new.json')
+city_location = pd.read_csv("AURData/location.csv")
 
 
 #Give SA4_CentralPoint Location
@@ -23,14 +23,12 @@ SA4_location = {"Ballarat" : [-37.549999, 143.850006],
                 "Warrnambool and South West":[-38.3818, 142.4880],
                 "Unknown":[0,0]}
 
-city_df = pd.read_json('AURData/suburb-geo-lga-new.json')
 
 
 ##Get LGA Tweet Count Data
 def get_lgaCount():
     Lga = []
-    VIC_loc = city_location.loc[city_location['state'] == "VIC"]
-    VIClis = VIC_loc[['lga_name','latitude','longitude']].to_numpy().tolist()
+    VIClis = city_location[['lga_name','latitude','longitude']].to_numpy().tolist()
     for item in db.view('CountOrSum/CountTweetslga_name', group=True, stale = "update_after"):
         dic = {"lga_name": item["key"].strip("\\t"), "Count": item["value"]}
         Lga.append(dic)
@@ -55,8 +53,7 @@ def get_CityCount():
 
 def get_Citylocation():
     #Give City Location
-    VIC_loc = city_location.loc[city_location['state'] == "VIC"]
-    VIClis = VIC_loc[['suburb','latitude','longitude']].to_numpy().tolist()
+    VIClis = city_location[['suburb','latitude','longitude']].to_numpy().tolist()
     city = []
     for item in db.view('CountOrSum/CountTweetscity_name', group=True, stale = "update_after"):
         dic = {"city_name": item["key"], "Count": item["value"]}
