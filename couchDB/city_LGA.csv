@@ -1,629 +1,629 @@
-city_name,LGA_name
-Melbourne,City of Melbourne
-Officer,Shire of Cardinia
-Bendigo,City of Greater Bendigo
-Pakenham,Shire of Cardinia
-Metung,Shire of East Gippsland
-Beechworth,Shire of Indigo
-Nhill,Shire of Hindmarsh
-Geelong,City of Greater Geelong
-Seymour,Shire of Mitchell
-Lara,City of Greater Geelong
-Warrnambool,City of Warrnambool
-Red Hill South,Shire of Mornington Peninsula
-Echuca,Shire of Campaspe
-Bacchus Marsh,Shire of Moorabool
-Aireys Inlet - Fairhaven,Surf Coast Shire
-Foster,South Gippsland Shire
-Mildura,Rural City of Mildura
-Merbein,Rural City of Mildura
-Yarrawonga,Shire of Moira
-Cobram,Shire of Moira
-Rutherglen,Shire of Indigo
-Sale,Shire of Wellington
-Torquay - Jan Juc,Surf Coast Shire
-Cape Schanck,Shire of Mornington Peninsula
-Cape Woolamai,Bass Coast Shire
-Cowes,Bass Coast Shire
-Apollo Bay,Colac Otway Shire
-Point Lonsdale - Queenscliff,Borough of Queenscliffe
-Lakes Entrance,Shire of East Gippsland
-Broadford,Shire of Mitchell
-Traralgon,City of Latrobe
-Anglesea,Surf Coast Shire
-Melton,City of Melton
-Stawell,Shire of Northern Grampians
-Gisborne,Shire of Macedon Ranges
-Riddells Creek,Shire of Macedon Ranges
-Sunbury,City of Hume
-Nagambie,Shire of Strathbogie
-Ballarat,City of Ballarat
-Creswick,Shire of Hepburn
-Marengo,Colac Otway Shire
-Heathcote,City of Greater Bendigo
-Horsham,Rural City of Horsham
-Ocean Grove - Barwon Heads,City of Greater Geelong
-Bright,Alpine Shire
-Wangaratta,Rural City of Wangaratta
-Drysdale - Clifton Springs,City of Greater Geelong
-Winchelsea,Surf Coast Shire
-Birregurra,Colac Otway Shire
-Blind Bight,City of Casey
-Grantville,Bass Coast Shire
-Dalyston,Bass Coast Shire
-Kilcunda,Bass Coast Shire
-Flinders,Shire of Mornington Peninsula
-Balnarring - Balnarring Beach,Shire of Mornington Peninsula
-Port Fairy,Shire of Moyne
-Leopold,City of Greater Geelong
-Wodonga,City of Wodonga
-Camperdown,Corangamite Shire
-Castlemaine,Shire of Mount Alexander
-Halls Gap,Shire of Northern Grampians
-Ararat,Rural City of Ararat
-Kyneton,Shire of Macedon Ranges
-Lancefield,Shire of Macedon Ranges
-Romsey,Shire of Macedon Ranges
-Daylesford - Hepburn Springs,Shire of Hepburn
-Yarra Glen,Shire of Yarra Ranges
-Woodend,Shire of Macedon Ranges
-Lorne,Surf Coast Shire
-Colac,Colac Otway Shire
-Beaconsfield Upper,Shire of Cardinia
-Port Albert,Shire of Wellington
-Woori Yallock - Launching Place,Shire of Yarra Ranges
-Bairnsdale,Shire of East Gippsland
-Orbost,Shire of East Gippsland
-Seville,Shire of Yarra Ranges
-Wallan,Shire of Mitchell
-Koroit,Shire of Moyne
-Healesville,Shire of Yarra Ranges
-Kilmore,Shire of Mitchell
-Rupanyup,Shire of Yarriambiack
-Shepparton - Mooroopna,City of Greater Shepparton
-Morwell,City of Latrobe
-Mansfield,Shire of Mansfield
-Omeo,Shire of East Gippsland
-Hopetoun Park,Shire of Moorabool
-Swan Hill,Rural City of Swan Hill
-Dunkeld,Shire of Southern Grampians
-Marong,City of Greater Bendigo
-Yinnar,City of Latrobe
-Porepunkah,Alpine Shire
-Portarlington,Portarlington
-Maldon,Shire of Mount Alexander
-Avoca,Pyrenees Shire
-Batesford,Golden Plains Shire
-St Arnaud,Shire of Northern Grampians
-Marysville,Shire of Murrindindi
-Yarram,Shire of Wellington
-Clyde,City of Casey
-Port Campbell,Corangamite Shire
-Tooradin,City of Casey
-Macedon,Shire of Macedon Ranges
-Benalla,Rural City of Benalla
-Rockbank,City of Melton
-Mount Beauty - Tawonga South,Alpine Shire
-Drouin,Shire of Baw Baw
-Inverloch,Bass Coast Shire
-Sunset Strip,Bass Coast Shire
-Warragul,Shire of Baw Baw
-Moe - Newborough,City of Latrobe
-Numurkah,Shire of Moira
-Yea,Shire of Murrindindi
-Myrtleford,Alpine Shire
-Trafalgar,Shire of Baw Baw
-Baranduda,City of Wodonga
-Little River,City of Wyndham
-Kiewa,Shire of Indigo
-Yackandandah,Shire of Indigo
-Hamilton,Shire of Southern Grampians
-Cobden,Corangamite Shire
-Kerang,Shire of Gannawarra
-Falls Creek (Vic.),Alpine Shire
-Wycheproof,Shire of Buloke
-Kaniva,Shire of West Wimmera
-Tatura,City of Greater Shepparton
-Smythesdale,Pyrenees Shire
-Snake Valley,Pyrenees Shire
-Portland (Vic.),Shire of Glenelg
-Leongatha,South Gippsland Shire
-Paynesville,Shire of East Gippsland
-Marlo,Shire of East Gippsland
-Terang,Corangamite Shire
-Eildon,Shire of Murrindindi
-Red Cliffs,Rural City of Mildura
-Alexandra,Shire of Murrindindi
-Bannockburn,Golden Plains Shire
-Nyah,Rural City of Swan Hill
-Wonga Park,City of Maroondah
-Cohuna,Shire of Gannawarra
-Arthurs Seat,Shire of Mornington Peninsula
-Kyabram,Shire of Campaspe
-Venus Bay,South Gippsland Shire
-Lake Tyers Beach,Shire of East Gippsland
-Yarragon,Shire of Baw Baw
-Cape Paterson,Bass Coast Shire
-Mirboo North,South Gippsland Shire
-Wonthaggi,Bass Coast Shire
-Korumburra,South Gippsland Shire
-Kinglake,Shire of Nillumbik
-Linton,Golden Plains Shire
-Bruthen,Shire of East Gippsland
-Avenel,Shire of Strathbogie
-Axedale,City of Greater Bendigo
-Clunes (Vic.),Shire of Hepburn
-Casterton,Shire of Glenelg
-Chiltern,Shire of Indigo
-Hopetoun (Vic.),Shire of Yarriambiack
-Cardigan Village,City of Ballarat
-Maffra,Shire of Wellington
-Goroke,Shire of West Wimmera
-Harcourt,Shire of Mount Alexander
-Robinvale,Rural City of Swan Hill
-East Warburton,Shire of Yarra Ranges
-Arcadia Downs,City of Greater Shepparton
-Blackwood,Shire of Moorabool
-Toora,South Gippsland Shire
-Ouyen,Rural City of Mildura
-San Remo,Bass Coast Shire
-Trentham,Shire of Moorabool
-Wedderburn,Shire of Loddon
-Longwarry,Shire of Cardinia
-Mortlake,Shire of Moyne
-Sawmill Settlement,Shire of Mansfield
-Euroa,Shire of Strathbogie
-Lockington,Lockington
-Maryborough (Vic.),Shire of Central Goldfields
-Churchill,City of Latrobe
-Koonoomoo,Shire of Moira
-Merricks North,Merricks North
-Heyfield,Shire of Wellington
-Cowwarr,Shire of Wellington
-Sea Lake,Shire of Buloke
-Beaufort,Pyrenees Shire
-Warracknabeal,Shire of Yarriambiack
-Dimboola,Shire of Hindmarsh
-Kingston SE,City of Kingston
-Laverton,City of Hobsons Bay
-Avalon,City of Greater Geelong
-Strathmerton,Shire of Moira
-Wahring,Shire of Strathbogie
-Warburton,Shire of Yarra Ranges
-Boneo,Shire of Mornington Peninsula
-Willaura,Rural City of Ararat
-Waurn Ponds,City of Greater Geelong
-Teesdale,Golden Plains Shire
-Brighton,City of Bayside
-Hampton Beach,City of Bayside
-Hampton,City of Bayside
-Surf Beach - Sunderland Bay,Bass Coast Shire
-Connewarre,City of Greater Geelong
-Old Tallangatta,Shire of Towong
-Falls Creek,Alpine Shire
-Mount Sturgeon,Shire of Southern Grampians
-Wilsons Promontory National Park,South Gippsland Shire
-Wandiligong,Alpine Shire
-Buninyong,Shire of Moorabool
-Lucas,City of Ballarat
-Durham Lead,City of Ballarat
-Jan Juc,Surf Coast Shire
-Yarck,Shire of Murrindindi
-Swanpool,Rural City of Benalla
-Kanyapella,Shire of Campaspe
-Corop,Shire of Campaspe
-Murchison,City of Greater Shepparton
-Williamstown,City of Hobsons Bay
-Salisbury Falls,Golden Plains Shire
-Glenrowan,Rural City of Wangaratta
-Coldstream,Shire of Yarra Ranges
-Fingal,Shire of Mornington Peninsula
-Mount Buller,Shire of Mansfield
-Byaduk,Shire of Southern Grampians
-Harrietville,Alpine Shire
-Archies Creek,Bass Coast Shire
-Mornington,Shire of Mornington Peninsula
-Meeniyan,South Gippsland Shire
-Red Hill,Shire of Mornington Peninsula
-Darnum,Shire of Baw Baw
-Rosebud Pier,Shire of Mornington Peninsula
-Balnarring Beach,Shire of Mornington Peninsula
-Mount Eliza,Shire of Mornington Peninsula
-Caulfield Racecourse,City of Glen Eira
-Dinner Plain,Alpine Shire
-Irymple,Rural City of Mildura
-Charlton,Shire of Buloke
-Donald,Shire of Buloke
-Rochester,Shire of Campaspe
-Tidal River,Surf Coast Shire
-Cavendish,Shire of Southern Grampians
-Tawonga,Alpine Shire
-Brim,Shire of Yarriambiack
-Yeodene,Colac Otway Shire
-Nullawarre,Shire of Moyne
-Crossley,Shire of Moyne
-Cape Bridgewater,Cape Bridgewater
-Beaumaris,City of Bayside
-Inverleigh,Golden Plains Shire
-Moorooduc,Shire of Mornington Peninsula
-Panton Hill,Shire of Nillumbik
-Buchan,Shire of East Gippsland
-Prahran,City of Stonnington
-Wollert,City of Whittlesea
-Ravenhall,City of Melton
-Drumborg,Shire of Glenelg
-Genoa,Shire of East Gippsland
-Docklands,City of Melbourne
-Southbank,City of Port Phillip
-Elwood,City of Port Phillip
-Warneet,City of Casey
-Corinella,Bass Coast Shire
-Glen Alvie,Bass Coast Shire
-Point Leo,Shire of Mornington Peninsula
-Devon Meadows,City of Casey
-Tuerong,Shire of Mornington Peninsula
-Cannons Creek,City of Casey
-St Kilda,City of Port Phillip
-Lexton,Pyrenees Shire
-Epping,City of Whittlesea
-Forest Hill,City of Whitehorse
-Wellington City,Shire of Wellington
-Epworth Richmond,City of Yarra
-Bullarto,Shire of Hepburn
-Koondrook,Shire of Gannawarra
-Toolern Vale,City of Melton
-Mount Macedon,Shire of Macedon Ranges
-Wellington,Shire of Wellington
-Richmond,City of Yarra
-Newlyn,Shire of Hepburn
-Abbotsford,City of Yarra
-Brooklyn,City of Brimbank
-Bunyip,Shire of Cardinia
-Upper Ferntree Gully,City of Knox
-Harkaway,City of Casey
-Doncaster,City of Manningham
-Bellarine,City of Greater Geelong
-Woodside,Shire of Wellington
-Diggers Rest,City of Hume
-Brunswick,City of Moreland
-Port Melbourne,City of Port Phillip
-Portsea,Shire of Mornington Peninsula
-Edenhope,Shire of West Wimmera
-Point Cook,City of Wyndham
-Summerlands,Bass Coast Shire
-Narbethong,Shire of Murrindindi
-Dixons Creek,Shire of Yarra Ranges
-Dromana,Shire of Mornington Peninsula
-Frankston North,City of Frankston
-Pascoe Vale South,City of Moreland
-Sandy Point,South Gippsland Shire
-Tacoma,Shire of Yarra Ranges
-Saint Albans,City of Brimbank
-Portland,Shire of Glenelg
-Eynesbury,City of Wyndham
-Lilydale,Shire of Yarra Ranges
-South Yarra,City of Stonnington
-Rhyll,Bass Coast Shire
-Freshwater Creek,Surf Coast Shire
-Bayswater,City of Knox
-Mickleham,City of Hume
-Tullamarine,City of Moreland
-Frankston,City of Frankston
-Clarinda,City of Kingston
-Somers,Shire of Mornington Peninsula
-Kensington,City of Melbourne
-Camberwell,City of Boroondara
-Whittlesea,City of Whittlesea
-Darraweit Guim,Shire of Macedon Ranges
-St Kilda Beach,City of Port Phillip
-Armadale,City of Stonnington
-Parkville,City of Moreland
-St Kilda Marina,City of Port Phillip
-West Footscray,City of Maribyrnong
-Cobram East,Shire of Moira
-Wahgunyah,Shire of Indigo
-Burramine,Shire of Moira
-Tungamah,Shire of Moira
-Youarang,Shire of Moira
-Fitzroy,City of Yarra
-Walwa,Shire of Towong
-Wendouree,City of Ballarat
-Hawthorn East,City of Boroondara
-Glen Waverley,City of Monash
-Cobaw,Shire of Macedon Ranges
-Bundalong,Shire of Moira
-Smiths Beach,Bass Coast Shire
-Seaford,City of Frankston
-Ventnor,Bass Coast Shire
-Cape Otway,Colac Otway Shire
-Kilcunda Beach,Colac Otway Shire
-Ascot Vale,City of Moonee Valley
-Flemington,City of Moonee Valley
-Tallarook,Shire of Mitchell
-Raglan,Pyrenees Shire
-Scotsburn,Shire of Moorabool
-Haddon,Golden Plains Shire
-Shepherds Flat,Shire of Hepburn
-Sutton Grange,Shire of Mount Alexander
-Clyde North,City of Casey
-Stanhope,Shire of Campaspe
-Lower Moira,Shire of Moira
-Doveton,City of Casey
-Narre Warren,City of Casey
-Mount Lonarch,Pyrenees Shire
-Gil Gil,Shire of Buloke
-Clonbinane,Shire of Mitchell
-Middle Brighton Beach,City of Bayside
-Brighton Beach,City of Bayside
-Northcote,City of Darebin
-Corryong,Shire of Towong
-Eldorado,Rural City of Wangaratta
-Tyabb,Shire of Mornington Peninsula
-Powelltown,Shire of Yarra Ranges
-Aberfeldie,City of Moonee Valley
-Scarsdale,Golden Plains Shire
-Mount Helen,City of Ballarat
-Keysborough,City of Greater Dandenong
-Port of Sale,Shire of Wellington
-Tallangatta,Shire of Towong
-Ringwood,City of Maroondah
-Mitcham,City of Whitehorse
-Nunawading,City of Manningham
-Blackburn,City of Whitehorse
-Doncaster East,City of Manningham
-Collingwood,City of Yarra
-Thomastown,City of Whittlesea
-Brunswick East,City of Moreland
-Nelson City,Shire of Glenelg
-Lauriston,Shire of Macedon Ranges
-Barfold,Shire of Mount Alexander
-Barrabool,Surf Coast Shire
-Mallacoota,Shire of East Gippsland
-Shoreham,Shire of Mornington Peninsula
-Kiata,Shire of Hindmarsh
-Minyip,Shire of Yarriambiack
-Kellalac,Shire of Yarriambiack
-Brunswick West,City of Moreland
-Smiths Gully,Shire of Nillumbik
-Drysdale,City of Greater Geelong
-Merricks,Shire of Mornington Peninsula
-Balnarring,Shire of Mornington Peninsula
-Weir,City of Melton
-Rubicon,Shire of Murrindindi
-Mill Park,City of Whittlesea
-Breakwater,City of Greater Geelong
-Burrumbeet,City of Ballarat
-Taggerty,Shire of Murrindindi
-Wyndham Vale,City of Wyndham
-Yallourn North,City of Latrobe
-Tottenham,City of Maribyrnong
-Tooborac,Shire of Mitchell
-Newhaven,Bass Coast Shire
-Westfield Doncaster,City of Manningham
-South Wharf,City of Port Phillip
-Fitzroy North,City of Moreland
-Marshalltown,City of Greater Geelong
-Separation Creek,Colac Otway Shire
-Cowes Beach,City of Bayside
-Nyah West,Rural City of Swan Hill
-Parkdale Beach,City of Kingston
-Zumsteins,Shire of Northern Grampians
-Forrest,Colac Otway Shire
-Bogong,Alpine Shire
-Carrum Downs,City of Frankston
-Malmsbury,Shire of Macedon Ranges
-Wantirna South,City of Knox
-Nirranda,Shire of Moyne
-Greenvale,City of Hume
-Mentone Beach,City of Kingston
-Goornong,City of Greater Bendigo
-Truganina,City of Wyndham
-Gembrook,Shire of Cardinia
-Navarre,Shire of Northern Grampians
-Bethanga,Shire of Towong
-Mitta Mitta,Shire of Towong
-Princes Hill,City of Yarra
-Ballan,Shire of Moorabool
-Bentleigh East,City of Glen Eira
-Werribee South,City of Wyndham
-Toolangi,Shire of Murrindindi
-Indented Head,City of Greater Geelong
-Moggs Creek,Surf Coast Shire
-Wandin East,Shire of Yarra Ranges
-Torquay,Surf Coast Shire
-Loch Valley,Shire of Baw Baw
-Laharum,Rural City of Horsham
-Horseshoe Bay,Shire of Moyne
-Benwerrin,Surf Coast Shire
-Yering,Shire of Yarra Ranges
-Balliang,Shire of Moorabool
-Violet Town,Shire of Strathbogie
-Heathcote Junction,Shire of Mitchell
-Wynyard,City of Port Phillip
-Hillingdon,City of Stonnington
-Anglesea Beach,Surf Coast Shire
-St Albans,City of Brimbank
-Ardeer,City of Brimbank
-Albion,City of Brimbank
-Sunshine,City of Brimbank
-Kealba,City of Brimbank
-Fyansford,City of Greater Geelong
-Peak Hill,City of Greater Geelong
-Washington,Alpine Shire
-Beveridge,Shire of Mitchell
-Boolarra,City of Latrobe
-Moss,City of Port Phillip
-Rome,City of Monash
-Plumpton,City of Melton
-Glenroy,City of Moreland
-Chelsea,City of Kingston
-Lang Lang,Shire of Cardinia
-Grovedale,City of Greater Geelong
-Armstrong Creek,City of Greater Geelong
-Kinglake West,Shire of Murrindindi
-Curlewis,City of Greater Geelong
-Sorrento,Shire of Mornington Peninsula
-Bayles,Shire of Cardinia
-Tynong,Shire of Cardinia
-Bonbeach,City of Kingston
-Altona North,City of Hobsons Bay
-Pune,Rural City of Mildura
-Pomonal,Rural City of Ararat
-Altona Beach,City of Hobsons Bay
-Sherbrooke,Shire of Yarra Ranges
-Heidelberg West,City of Banyule
-Greensborough,Shire of Nillumbik
-Heidelberg,City of Banyule
-Macleod,City of Darebin
-Rosanna,City of Banyule
-Cranbourne West,City of Casey
-Longford,Shire of Wellington
-Warrenheip,Shire of Moorabool
-Yendon,Shire of Moorabool
-Coburg,City of Darebin
-Severn,City of Hume
-Chelsea Beach,City of Kingston
-Venice,Rural City of Mildura
-Preston,City of Darebin
-South Melbourne,City of Port Phillip
-Smeaton,Shire of Hepburn
-Eltham,Shire of Nillumbik
-Westbury,Shire of Baw Baw
-Parwan,Shire of Moorabool
-Melton South,City of Melton
-St Kilda Pier,City of Port Phillip
-Plenty,Shire of Nillumbik
-Lake Tyrrell,Shire of Buloke
-Princetown,Corangamite Shire
-Enfield,Golden Plains Shire
-Dookie,City of Greater Shepparton
-Yarra Junction - Wesburn,Shire of Yarra Ranges
-Sorrento Beach,Shire of Mornington Peninsula
-Half Moon Bay,City of Bayside
-Centro,City of Port Phillip
-Gainesville,City of Melbourne
-Carnegie,City of Glen Eira
-Willow Grove,Shire of Baw Baw
-Vermont,City of Maroondah
-Moorabbin,City of Kingston
-Bulleen,City of Manningham
-Alphington,City of Darebin
-Sandringham,City of Bayside
-Wareek,Pyrenees Shire
-Elsternwick,City of Glen Eira
-Swan Reach,Shire of East Gippsland
-Coopers Creek,Shire of Baw Baw
-Kevington,Shire of Mansfield
-Clifton Creek,Shire of East Gippsland
-Anakie,City of Greater Geelong
-Frankston South,City of Frankston
-Neerim South,Shire of Baw Baw
-Golden Beach - Paradise Beach,Shire of Wellington
-Mernda,City of Whittlesea
-Cranbourne,City of Casey
-Barnawartha,Shire of Indigo
-Glen Huntly,City of Glen Eira
-Kew,City of Boroondara
-Caulfield,City of Glen Eira
-Braybrook,City of Maribyrnong
-Bromley,Shire of Central Goldfields
-Portland Wharf,Shire of Glenelg
-Lindenow,Shire of East Gippsland
-Mount Evelyn,Shire of Yarra Ranges
-Point Lonsdale,Borough of Queenscliffe
-Coburg North,City of Darebin
-Long Gully,City of Greater Bendigo
-Wallington,City of Greater Geelong
-Great Western,Shire of Northern Grampians
-Tresco West,Rural City of Swan Hill
-Loch,South Gippsland Shire
-Charleroi,Shire of Indigo
-Glen Iris,City of Stonnington
-Paringa,City of Melbourne
-Lalor,City of Whittlesea
-Glenmaggie,Shire of Wellington
-Burwood,City of Monash
-Newham,Shire of Macedon Ranges
-Wimbledon Heights,Bass Coast Shire
-Murtoa,Shire of Yarriambiack
-Fern Gully,City of Knox
-Berwick,City of Casey
-Quambatook,Shire of Gannawarra
-St Andrews,Shire of Nillumbik
-Wandong - Heathcote Junction,Shire of Mitchell
-Allansford,City of Warrnambool
-Buln Buln,Shire of Baw Baw
-Victoria Island,Shire of Moira
-Tanybryn,Shire of Murrindindi
-Tanjil Bren,Shire of Baw Baw
-Nelse,Shire of East Gippsland
-Fernshaw,Shire of Yarra Ranges
-Bunyip North,Shire of Cardinia
-Emerald,Shire of Cardinia
-Bentleigh,City of Glen Eira
-Surf Beach,Bass Coast Shire
-Balwyn North,City of Boroondara
-Montreux,City of Stonnington
-Lyon,Shire of Glenelg
-Gnarwarre,Surf Coast Shire
-Baw Baw,Shire of Baw Baw
-Barwidgee,Alpine Shire
-Metcalfe,Shire of Mount Alexander
-Milawa,Rural City of Wangaratta
-Walpeup,Rural City of Mildura
-Cambarville,Shire of Yarra Ranges
-Fernbank,Shire of East Gippsland
-Blampied,Shire of Hepburn
-Musk,Shire of Hepburn
-Caulfield North,City of Glen Eira
-Malvern,City of Stonnington
-Boonah,Surf Coast Shire
-Merrigum,City of Greater Shepparton
-Eaglemont,City of Banyule
-Yanakie,South Gippsland Shire
-Drouin South,Shire of Baw Baw
-Oakleigh East,Monash
-Aireys Inlet,Surf Coast Shire
-Gellibrand,Colac Otway Shire
-Bellbrae,Surf Coast Shire
-Corio,City of Greater Geelong
-Ferntree Gully,City of Knox
-Eastern View,Surf Coast Shire
-Locksley,Shire of Strathbogie
-Ocean Grove,City of Greater Geelong
-Bena,South Gippsland Shire
-Chadstone,City of Monash
-Merrijig,Shire of Mansfield
-Werribee,City of Wyndham
-Huntly,City of Greater Bendigo
-Garfield,Shire of Cardinia
-Longwood,Shire of Strathbogie
-Stockland Wendouree,City of Ballarat
-Niddrie,City of Moonee Valley
-Ashburton,City of Boroondara
-Silvan,Shire of Yarra Ranges
-Beaconsfield,Shire of Cardinia
-Clunes Booktown,Shire of Hepburn
-North Geelong,City of Greater Geelong
-Norlane,City of Greater Geelong
-Geelong West,City of Greater Geelong
-Blairgowrie,Shire of Mornington Peninsula
-Lake Bolac,Rural City of Ararat
-Derrinallum,Corangamite Shire
-Blackburn South,City of Whitehorse
-Mount Waverley,City of Monash
-Hamlyn Heights,City of Greater Geelong
-Harcourt North,Shire of Mount Alexander
-Templestowe,City of Manningham
-Lillydale Lake,Shire of Yarra Ranges
-Ashwood,City of Monash
-Wongarra,Colac Otway Shire
-Ruffy,Shire of Strathbogie
-Rushworth,Shire of Campaspe
-Nowa Nowa,Shire of East Gippsland
-Mooroopna North,City of Greater Shepparton
-Strathdale,City of Greater Bendigo
-Lancaster,Shire of Campaspe
-Idaho,City of Greater Geelong
-Rye,Shire of Mornington Peninsula
-Hamilton City,Shire of Southern Grampians
+city_name,LGA_name,
+Melbourne,City of Melbourne,
+Officer,Shire of Cardinia,
+Bendigo,City of Greater Bendigo,
+Pakenham,Shire of Cardinia,
+Metung,Shire of East Gippsland,
+Beechworth,Shire of Indigo,
+Nhill,Shire of Hindmarsh,
+Geelong,City of Greater Geelong,
+Seymour,Shire of Mitchell,
+Lara,City of Greater Geelong,
+Warrnambool,City of Warrnambool,
+Red Hill South,Shire of Mornington Peninsula,
+Echuca,Shire of Campaspe,
+Bacchus Marsh,Shire of Moorabool,
+Aireys Inlet - Fairhaven,Surf Coast Shire,
+Foster,South Gippsland Shire,
+Mildura,Rural City of Mildura,
+Merbein,Rural City of Mildura,
+Yarrawonga,Shire of Moira,
+Cobram,Shire of Moira,
+Rutherglen,Shire of Indigo,
+Sale,Shire of Wellington,
+Torquay - Jan Juc,Surf Coast Shire,
+Cape Schanck,Shire of Mornington Peninsula,
+Cape Woolamai,Bass Coast Shire,
+Cowes,Bass Coast Shire,
+Apollo Bay,Colac Otway Shire,
+Point Lonsdale - Queenscliff,Borough of Queenscliffe,
+Lakes Entrance,Shire of East Gippsland,
+Broadford,Shire of Mitchell,
+Traralgon,City of Latrobe,
+Anglesea,Surf Coast Shire,
+Melton,City of Melton,
+Stawell,Shire of Northern Grampians,
+Gisborne,Shire of Macedon Ranges,
+Riddells Creek,Shire of Macedon Ranges,
+Sunbury,City of Hume,
+Nagambie,Shire of Strathbogie,
+Ballarat,City of Ballarat,
+Creswick,Shire of Hepburn,
+Marengo,Colac Otway Shire,
+Heathcote,City of Greater Bendigo,
+Horsham,Rural City of Horsham,
+Ocean Grove - Barwon Heads,City of Greater Geelong,
+Bright,Alpine Shire,
+Wangaratta,Rural City of Wangaratta,
+Drysdale - Clifton Springs,City of Greater Geelong,
+Winchelsea,Surf Coast Shire,
+Birregurra,Colac Otway Shire,
+Blind Bight,City of Casey,
+Grantville,Bass Coast Shire,
+Dalyston,Bass Coast Shire,
+Kilcunda,Bass Coast Shire,
+Flinders,Shire of Mornington Peninsula,
+Balnarring - Balnarring Beach,Shire of Mornington Peninsula,
+Port Fairy,Shire of Moyne,
+Leopold,City of Greater Geelong,
+Wodonga,City of Wodonga,
+Camperdown,Corangamite Shire,
+Castlemaine,Shire of Mount Alexander,
+Halls Gap,Shire of Northern Grampians,
+Ararat,Rural City of Ararat,
+Kyneton,Shire of Macedon Ranges,
+Lancefield,Shire of Macedon Ranges,
+Romsey,Shire of Macedon Ranges,
+Daylesford - Hepburn Springs,Shire of Hepburn,
+Yarra Glen,Shire of Yarra Ranges,
+Woodend,Shire of Macedon Ranges,
+Lorne,Surf Coast Shire,
+Colac,Colac Otway Shire,
+Beaconsfield Upper,Shire of Cardinia,
+Port Albert,Shire of Wellington,
+Woori Yallock - Launching Place,Shire of Yarra Ranges,
+Bairnsdale,Shire of East Gippsland,
+Orbost,Shire of East Gippsland,
+Seville,Shire of Yarra Ranges,
+Wallan,Shire of Mitchell,
+Koroit,Shire of Moyne,
+Healesville,Shire of Yarra Ranges,
+Kilmore,Shire of Mitchell,
+Rupanyup,Shire of Yarriambiack,
+Shepparton - Mooroopna,City of Greater Shepparton,
+Morwell,City of Latrobe,
+Mansfield,Shire of Mansfield,
+Omeo,Shire of East Gippsland,
+Hopetoun Park,Shire of Moorabool,
+Swan Hill,Rural City of Swan Hill,
+Dunkeld,Shire of Southern Grampians,
+Marong,City of Greater Bendigo,
+Yinnar,City of Latrobe,
+Porepunkah,Alpine Shire,
+Portarlington,City of Greater Geelong,
+Maldon,Shire of Mount Alexander,
+Avoca,Pyrenees Shire,
+Batesford,Golden Plains Shire,
+St Arnaud,Shire of Northern Grampians,
+Marysville,Shire of Murrindindi,
+Yarram,Shire of Wellington,
+Clyde,City of Casey,
+Port Campbell,Corangamite Shire,
+Tooradin,City of Casey,
+Macedon,Shire of Macedon Ranges,
+Benalla,Rural City of Benalla,
+Rockbank,City of Melton,
+Mount Beauty - Tawonga South,Alpine Shire,
+Drouin,Shire of Baw Baw,
+Inverloch,Bass Coast Shire,
+Sunset Strip,Bass Coast Shire,
+Warragul,Shire of Baw Baw,
+Moe - Newborough,City of Latrobe,
+Numurkah,Shire of Moira,
+Yea,Shire of Murrindindi,
+Myrtleford,Alpine Shire,
+Trafalgar,Shire of Baw Baw,
+Baranduda,City of Wodonga,
+Little River,City of Wyndham,
+Kiewa,Shire of Indigo,
+Yackandandah,Shire of Indigo,
+Hamilton,Shire of Southern Grampians,
+Cobden,Corangamite Shire,
+Kerang,Shire of Gannawarra,
+Falls Creek (Vic.),Alpine Shire,
+Wycheproof,Shire of Buloke,
+Kaniva,Shire of West Wimmera,
+Tatura,City of Greater Shepparton,
+Smythesdale,Pyrenees Shire,
+Snake Valley,Pyrenees Shire,
+Portland (Vic.),Shire of Glenelg,
+Leongatha,South Gippsland Shire,
+Paynesville,Shire of East Gippsland,
+Marlo,Shire of East Gippsland,
+Terang,Corangamite Shire,
+Eildon,Shire of Murrindindi,
+Red Cliffs,Rural City of Mildura,
+Alexandra,Shire of Murrindindi,
+Bannockburn,Golden Plains Shire,
+Nyah,Rural City of Swan Hill,
+Wonga Park,City of Maroondah,
+Cohuna,Shire of Gannawarra,
+Arthurs Seat,Shire of Mornington Peninsula,
+Kyabram,Shire of Campaspe,
+Venus Bay,South Gippsland Shire,
+Lake Tyers Beach,Shire of East Gippsland,
+Yarragon,Shire of Baw Baw,
+Cape Paterson,Bass Coast Shire,
+Mirboo North,South Gippsland Shire,
+Wonthaggi,Bass Coast Shire,
+Korumburra,South Gippsland Shire,
+Kinglake,Shire of Nillumbik,
+Linton,Golden Plains Shire,
+Bruthen,Shire of East Gippsland,
+Avenel,Shire of Strathbogie,
+Axedale,City of Greater Bendigo,
+Clunes (Vic.),Shire of Hepburn,
+Casterton,Shire of Glenelg,
+Chiltern,Shire of Indigo,
+Hopetoun (Vic.),Shire of Yarriambiack,
+Cardigan Village,City of Ballarat,
+Maffra,Shire of Wellington,
+Goroke,Shire of West Wimmera,
+Harcourt,Shire of Mount Alexander,
+Robinvale,Rural City of Swan Hill,
+East Warburton,Shire of Yarra Ranges,
+Arcadia Downs,City of Greater Shepparton,
+Blackwood,Shire of Moorabool,
+Toora,South Gippsland Shire,
+Ouyen,Rural City of Mildura,
+San Remo,Bass Coast Shire,
+Trentham,Shire of Moorabool,
+Wedderburn,Shire of Loddon,
+Longwarry,Shire of Cardinia,
+Mortlake,Shire of Moyne,
+Sawmill Settlement,Shire of Mansfield,
+Euroa,Shire of Strathbogie,
+Lockington,Shire of Campaspe,
+Maryborough (Vic.),Shire of Central Goldfields,
+Churchill,City of Latrobe,
+Koonoomoo,Shire of Moira,
+Merricks North,Shire of Mornington Peninsula,
+Heyfield,Shire of Wellington,
+Cowwarr,Shire of Wellington,
+Sea Lake,Shire of Buloke,
+Beaufort,Pyrenees Shire,
+Warracknabeal,Shire of Yarriambiack,
+Dimboola,Shire of Hindmarsh,
+Kingston SE,City of Kingston,
+Laverton,City of Hobsons Bay,
+Avalon,City of Greater Geelong,
+Strathmerton,Shire of Moira,
+Wahring,Shire of Strathbogie,
+Warburton,Shire of Yarra Ranges,
+Boneo,Shire of Mornington Peninsula,
+Willaura,Rural City of Ararat,
+Waurn Ponds,City of Greater Geelong,
+Teesdale,Golden Plains Shire,
+Brighton,City of Bayside,
+Hampton Beach,City of Bayside,
+Hampton,City of Bayside,
+Surf Beach - Sunderland Bay,Bass Coast Shire,
+Connewarre,City of Greater Geelong,
+Old Tallangatta,Shire of Towong,
+Falls Creek,Alpine Shire,
+Mount Sturgeon,Shire of Southern Grampians,
+Wilsons Promontory National Park,South Gippsland Shire,
+Wandiligong,Alpine Shire,
+Buninyong,Shire of Moorabool,
+Lucas,City of Ballarat,
+Durham Lead,City of Ballarat,
+Jan Juc,Surf Coast Shire,
+Yarck,Shire of Murrindindi,
+Swanpool,Rural City of Benalla,
+Kanyapella,Shire of Campaspe,
+Corop,Shire of Campaspe,
+Murchison,City of Greater Shepparton,
+Williamstown,City of Hobsons Bay,
+Salisbury Falls,Golden Plains Shire,
+Glenrowan,Rural City of Wangaratta,
+Coldstream,Shire of Yarra Ranges,
+Fingal,Shire of Mornington Peninsula,
+Mount Buller,Shire of Mansfield,
+Byaduk,Shire of Southern Grampians,
+Harrietville,Alpine Shire,
+Archies Creek,Bass Coast Shire,
+Mornington,Shire of Mornington Peninsula,
+Meeniyan,South Gippsland Shire,
+Red Hill,Shire of Mornington Peninsula,
+Darnum,Shire of Baw Baw,
+Rosebud Pier,Shire of Mornington Peninsula,
+Balnarring Beach,Shire of Mornington Peninsula,
+Mount Eliza,Shire of Mornington Peninsula,
+Caulfield Racecourse,City of Glen Eira,
+Dinner Plain,Alpine Shire,
+Irymple,Rural City of Mildura,
+Charlton,Shire of Buloke,
+Donald,Shire of Buloke,
+Rochester,Shire of Campaspe,
+Tidal River,Surf Coast Shire,
+Cavendish,Shire of Southern Grampians,
+Tawonga,Alpine Shire,
+Brim,Shire of Yarriambiack,
+Yeodene,Colac Otway Shire,
+Nullawarre,Shire of Moyne,
+Crossley,Shire of Moyne,
+Cape Bridgewater,Shire of Glenelg,
+Beaumaris,City of Bayside,
+Inverleigh,Golden Plains Shire,
+Moorooduc,Shire of Mornington Peninsula,
+Panton Hill,Shire of Nillumbik,
+Buchan,Shire of East Gippsland,
+Prahran,City of Stonnington,
+Wollert,City of Whittlesea,
+Ravenhall,City of Melton,
+Drumborg,Shire of Glenelg,
+Genoa,Shire of East Gippsland,
+Docklands,City of Melbourne,
+Southbank,City of Port Phillip,
+Elwood,City of Port Phillip,
+Warneet,City of Casey,
+Corinella,Bass Coast Shire,
+Glen Alvie,Bass Coast Shire,
+Point Leo,Shire of Mornington Peninsula,
+Devon Meadows,City of Casey,
+Tuerong,Shire of Mornington Peninsula,
+Cannons Creek,City of Casey,
+St Kilda,City of Port Phillip,
+Lexton,Pyrenees Shire,
+Epping,City of Whittlesea,
+Forest Hill,City of Whitehorse,
+Wellington City,Shire of Wellington,
+Epworth Richmond,City of Yarra,
+Bullarto,Shire of Hepburn,
+Koondrook,Shire of Gannawarra,
+Toolern Vale,City of Melton,
+Mount Macedon,Shire of Macedon Ranges,
+Wellington,Shire of Wellington,
+Richmond,City of Yarra,
+Newlyn,Shire of Hepburn,
+Abbotsford,City of Yarra,
+Brooklyn,City of Brimbank,
+Bunyip,Shire of Cardinia,
+Upper Ferntree Gully,City of Knox,
+Harkaway,City of Casey,
+Doncaster,City of Manningham,
+Bellarine,City of Greater Geelong,
+Woodside,Shire of Wellington,
+Diggers Rest,City of Hume,
+Brunswick,City of Moreland,
+Port Melbourne,City of Port Phillip,
+Portsea,Shire of Mornington Peninsula,
+Edenhope,Shire of West Wimmera,
+Point Cook,City of Wyndham,
+Summerlands,Bass Coast Shire,
+Narbethong,Shire of Murrindindi,
+Dixons Creek,Shire of Yarra Ranges,
+Dromana,Shire of Mornington Peninsula,
+Frankston North,City of Frankston,
+Pascoe Vale South,City of Moreland,
+Sandy Point,South Gippsland Shire,
+Tacoma,Shire of Yarra Ranges,
+Saint Albans,City of Brimbank,
+Portland,Shire of Glenelg,
+Eynesbury,City of Wyndham,
+Lilydale,Shire of Yarra Ranges,
+South Yarra,City of Stonnington,
+Rhyll,Bass Coast Shire,
+Freshwater Creek,Surf Coast Shire,
+Bayswater,City of Knox,
+Mickleham,City of Hume,
+Tullamarine,City of Moreland,
+Frankston,City of Frankston,
+Clarinda,City of Kingston,
+Somers,Shire of Mornington Peninsula,
+Kensington,City of Melbourne,
+Camberwell,City of Boroondara,
+Whittlesea,City of Whittlesea,
+Darraweit Guim,Shire of Macedon Ranges,
+St Kilda Beach,City of Port Phillip,
+Armadale,City of Stonnington,
+Parkville,City of Moreland,
+St Kilda Marina,City of Port Phillip,
+West Footscray,City of Maribyrnong,
+Cobram East,Shire of Moira,
+Wahgunyah,Shire of Indigo,
+Burramine,Shire of Moira,
+Tungamah,Shire of Moira,
+Youarang,Shire of Moira,
+Fitzroy,City of Yarra,
+Walwa,Shire of Towong,
+Wendouree,City of Ballarat,
+Hawthorn East,City of Boroondara,
+Glen Waverley,City of Monash,
+Cobaw,Shire of Macedon Ranges,
+Bundalong,Shire of Moira,
+Smiths Beach,Bass Coast Shire,
+Seaford,City of Frankston,
+Ventnor,Bass Coast Shire,
+Cape Otway,Colac Otway Shire,
+Kilcunda Beach,Colac Otway Shire,
+Ascot Vale,City of Moonee Valley,
+Flemington,City of Moonee Valley,
+Tallarook,Shire of Mitchell,
+Raglan,Pyrenees Shire,
+Scotsburn,Shire of Moorabool,
+Haddon,Golden Plains Shire,
+Shepherds Flat,Shire of Hepburn,
+Sutton Grange,Shire of Mount Alexander,
+Clyde North,City of Casey,
+Stanhope,Shire of Campaspe,
+Lower Moira,Shire of Moira,
+Doveton,City of Casey,
+Narre Warren,City of Casey,
+Mount Lonarch,Pyrenees Shire,
+Gil Gil,Shire of Buloke,
+Clonbinane,Shire of Mitchell,
+Middle Brighton Beach,City of Bayside,
+Brighton Beach,City of Bayside,
+Northcote,City of Darebin,
+Corryong,Shire of Towong,
+Eldorado,Rural City of Wangaratta,
+Tyabb,Shire of Mornington Peninsula,
+Powelltown,Shire of Yarra Ranges,
+Aberfeldie,City of Moonee Valley,
+Scarsdale,Golden Plains Shire,
+Mount Helen,City of Ballarat,
+Keysborough,City of Greater Dandenong,
+Port of Sale,Shire of Wellington,
+Tallangatta,Shire of Towong,
+Ringwood,City of Maroondah,
+Mitcham,City of Whitehorse,
+Nunawading,City of Manningham,
+Blackburn,City of Whitehorse,
+Doncaster East,City of Manningham,
+Collingwood,City of Yarra,
+Thomastown,City of Whittlesea,
+Brunswick East,City of Moreland,
+Nelson City,Shire of Glenelg,
+Lauriston,Shire of Macedon Ranges,
+Barfold,Shire of Mount Alexander,
+Barrabool,Surf Coast Shire,
+Mallacoota,Shire of East Gippsland,
+Shoreham,Shire of Mornington Peninsula,
+Kiata,Shire of Hindmarsh,
+Minyip,Shire of Yarriambiack,
+Kellalac,Shire of Yarriambiack,
+Brunswick West,City of Moreland,
+Smiths Gully,Shire of Nillumbik,
+Drysdale,City of Greater Geelong,
+Merricks,Shire of Mornington Peninsula,
+Balnarring,Shire of Mornington Peninsula,
+Weir,City of Melton,
+Rubicon,Shire of Murrindindi,
+Mill Park,City of Whittlesea,
+Breakwater,City of Greater Geelong,
+Burrumbeet,City of Ballarat,
+Taggerty,Shire of Murrindindi,
+Wyndham Vale,City of Wyndham,
+Yallourn North,City of Latrobe,
+Tottenham,City of Maribyrnong,
+Tooborac,Shire of Mitchell,
+Newhaven,Bass Coast Shire,
+Westfield Doncaster,City of Manningham,
+South Wharf,City of Port Phillip,
+Fitzroy North,City of Moreland,
+Marshalltown,City of Greater Geelong,
+Separation Creek,Colac Otway Shire,
+Cowes Beach,City of Bayside,
+Nyah West,Rural City of Swan Hill,
+Parkdale Beach,City of Kingston,
+Zumsteins,Shire of Northern Grampians,
+Forrest,Colac Otway Shire,
+Bogong,Alpine Shire,
+Carrum Downs,City of Frankston,
+Malmsbury,Shire of Macedon Ranges,
+Wantirna South,City of Knox,
+Nirranda,Shire of Moyne,
+Greenvale,City of Hume,
+Mentone Beach,City of Kingston,
+Goornong,City of Greater Bendigo,
+Truganina,City of Wyndham,
+Gembrook,Shire of Cardinia,
+Navarre,Shire of Northern Grampians,
+Bethanga,Shire of Towong,
+Mitta Mitta,Shire of Towong,
+Princes Hill,City of Yarra,
+Ballan,Shire of Moorabool,
+Bentleigh East,City of Glen Eira,
+Werribee South,City of Wyndham,
+Toolangi,Shire of Murrindindi,
+Indented Head,City of Greater Geelong,
+Moggs Creek,Surf Coast Shire,
+Wandin East,Shire of Yarra Ranges,
+Torquay,Surf Coast Shire,
+Loch Valley,Shire of Baw Baw,
+Laharum,Rural City of Horsham,
+Horseshoe Bay,Shire of Moyne,
+Benwerrin,Surf Coast Shire,
+Yering,Shire of Yarra Ranges,
+Balliang,Shire of Moorabool,
+Violet Town,Shire of Strathbogie,
+Heathcote Junction,Shire of Mitchell,
+Wynyard,City of Port Phillip,
+Hillingdon,City of Stonnington,
+Anglesea Beach,Surf Coast Shire,
+St Albans,City of Brimbank,
+Ardeer,City of Brimbank,
+Albion,City of Brimbank,
+Sunshine,City of Brimbank,
+Kealba,City of Brimbank,
+Fyansford,City of Greater Geelong,
+Peak Hill,City of Greater Geelong,
+Washington,Alpine Shire,
+Beveridge,Shire of Mitchell,
+Boolarra,City of Latrobe,
+Moss,City of Port Phillip,
+Rome,City of Monash,
+Plumpton,City of Melton,
+Glenroy,City of Moreland,
+Chelsea,City of Kingston,
+Lang Lang,Shire of Cardinia,
+Grovedale,City of Greater Geelong,
+Armstrong Creek,City of Greater Geelong,
+Kinglake West,Shire of Murrindindi,
+Curlewis,City of Greater Geelong,
+Sorrento,Shire of Mornington Peninsula,
+Bayles,Shire of Cardinia,
+Tynong,Shire of Cardinia,
+Bonbeach,City of Kingston,
+Altona North,City of Hobsons Bay,
+Pune,Rural City of Mildura,
+Pomonal,Rural City of Ararat,
+Altona Beach,City of Hobsons Bay,
+Sherbrooke,Shire of Yarra Ranges,
+Heidelberg West,City of Banyule,
+Greensborough,Shire of Nillumbik,
+Heidelberg,City of Banyule,
+Macleod,City of Darebin,
+Rosanna,City of Banyule,
+Cranbourne West,City of Casey,
+Longford,Shire of Wellington,
+Warrenheip,Shire of Moorabool,
+Yendon,Shire of Moorabool,
+Coburg,City of Darebin,
+Severn,City of Hume,
+Chelsea Beach,City of Kingston,
+Venice,Rural City of Mildura,
+Preston,City of Darebin,
+South Melbourne,City of Port Phillip,
+Smeaton,Shire of Hepburn,
+Eltham,Shire of Nillumbik,
+Westbury,Shire of Baw Baw,
+Parwan,Shire of Moorabool,
+Melton South,City of Melton,
+St Kilda Pier,City of Port Phillip,
+Plenty,Shire of Nillumbik,
+Lake Tyrrell,Shire of Buloke,
+Princetown,Corangamite Shire,
+Enfield,Golden Plains Shire,
+Dookie,City of Greater Shepparton,
+Yarra Junction - Wesburn,Shire of Yarra Ranges,
+Sorrento Beach,Shire of Mornington Peninsula,
+Half Moon Bay,City of Bayside,
+Centro,City of Port Phillip,
+Gainesville,City of Melbourne,
+Carnegie,City of Glen Eira,
+Willow Grove,Shire of Baw Baw,
+Vermont,City of Maroondah,
+Moorabbin,City of Kingston,
+Bulleen,City of Manningham,
+Alphington,City of Darebin,
+Sandringham,City of Bayside,
+Wareek,Pyrenees Shire,
+Elsternwick,City of Glen Eira,
+Swan Reach,Shire of East Gippsland,
+Coopers Creek,Shire of Baw Baw,
+Kevington,Shire of Mansfield,
+Clifton Creek,Shire of East Gippsland,
+Anakie,City of Greater Geelong,
+Frankston South,City of Frankston,
+Neerim South,Shire of Baw Baw,
+Golden Beach - Paradise Beach,Shire of Wellington,
+Mernda,City of Whittlesea,
+Cranbourne,City of Casey,
+Barnawartha,Shire of Indigo,
+Glen Huntly,City of Glen Eira,
+Kew,City of Boroondara,
+Caulfield,City of Glen Eira,
+Braybrook,City of Maribyrnong,
+Bromley,Shire of Central Goldfields,
+Portland Wharf,Shire of Glenelg,
+Lindenow,Shire of East Gippsland,
+Mount Evelyn,Shire of Yarra Ranges,
+Point Lonsdale,Borough of Queenscliffe,
+Coburg North,City of Darebin,
+Long Gully,City of Greater Bendigo,
+Wallington,City of Greater Geelong,
+Great Western,Shire of Northern Grampians,
+Tresco West,Rural City of Swan Hill,
+Loch,South Gippsland Shire,
+Charleroi,Shire of Indigo,
+Glen Iris,City of Stonnington,
+Paringa,City of Melbourne,
+Lalor,City of Whittlesea,
+Glenmaggie,Shire of Wellington,
+Burwood,City of Monash,
+Newham,Shire of Macedon Ranges,
+Wimbledon Heights,Bass Coast Shire,
+Murtoa,Shire of Yarriambiack,
+Fern Gully,City of Knox,
+Berwick,City of Casey,
+Quambatook,Shire of Gannawarra,
+St Andrews,Shire of Nillumbik,
+Wandong - Heathcote Junction,Shire of Mitchell,
+Allansford,City of Warrnambool,
+Buln Buln,Shire of Baw Baw,
+Victoria Island,Shire of Moira,
+Tanybryn,Shire of Murrindindi,
+Tanjil Bren,Shire of Baw Baw,
+Nelse,Shire of East Gippsland,
+Fernshaw,Shire of Yarra Ranges,
+Bunyip North,Shire of Cardinia,
+Emerald,Shire of Cardinia,
+Bentleigh,City of Glen Eira,
+Surf Beach,Bass Coast Shire,
+Balwyn North,City of Boroondara,
+Montreux,City of Stonnington,
+Lyon,Shire of Glenelg,
+Gnarwarre,Surf Coast Shire,
+Baw Baw,Shire of Baw Baw,
+Barwidgee,Alpine Shire,
+Metcalfe,Shire of Mount Alexander,
+Milawa,Rural City of Wangaratta,
+Walpeup,Rural City of Mildura,
+Cambarville,Shire of Yarra Ranges,
+Fernbank,Shire of East Gippsland,
+Blampied,Shire of Hepburn,
+Musk,Shire of Hepburn,
+Caulfield North,City of Glen Eira,
+Malvern,City of Stonnington,
+Boonah,Surf Coast Shire,
+Merrigum,City of Greater Shepparton,
+Eaglemont,City of Banyule,
+Yanakie,South Gippsland Shire,
+Drouin South,Shire of Baw Baw,
+Oakleigh East,City of Monash,
+Aireys Inlet,Surf Coast Shire,
+Gellibrand,Colac Otway Shire,
+Bellbrae,Surf Coast Shire,
+Corio,City of Greater Geelong,
+Ferntree Gully,City of Knox,
+Eastern View,Surf Coast Shire,
+Locksley,Shire of Strathbogie,
+Ocean Grove,City of Greater Geelong,
+Bena,South Gippsland Shire,
+Chadstone,City of Monash,
+Merrijig,Shire of Mansfield,
+Werribee,City of Wyndham,
+Huntly,City of Greater Bendigo,
+Garfield,Shire of Cardinia,
+Longwood,Shire of Strathbogie,
+Stockland Wendouree,City of Ballarat,
+Niddrie,City of Moonee Valley,
+Ashburton,City of Boroondara,
+Silvan,Shire of Yarra Ranges,
+Beaconsfield,Shire of Cardinia,
+Clunes Booktown,Shire of Hepburn,
+North Geelong,City of Greater Geelong,
+Norlane,City of Greater Geelong,
+Geelong West,City of Greater Geelong,
+Blairgowrie,Shire of Mornington Peninsula,
+Lake Bolac,Rural City of Ararat,
+Derrinallum,Corangamite Shire,
+Blackburn South,City of Whitehorse,
+Mount Waverley,City of Monash,
+Hamlyn Heights,City of Greater Geelong,
+Harcourt North,Shire of Mount Alexander,
+Templestowe,City of Manningham,
+Lillydale Lake,Shire of Yarra Ranges,
+Ashwood,City of Monash,
+Wongarra,Colac Otway Shire,
+Ruffy,Shire of Strathbogie,
+Rushworth,Shire of Campaspe,
+Nowa Nowa,Shire of East Gippsland,
+Mooroopna North,City of Greater Shepparton,
+Strathdale,City of Greater Bendigo,
+Lancaster,Shire of Campaspe,
+Idaho,City of Greater Geelong,
+Rye,Shire of Mornington Peninsula,
+Hamilton City,Shire of Southern Grampians,
