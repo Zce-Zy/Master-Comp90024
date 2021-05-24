@@ -9,7 +9,11 @@ import {
   PieChart as RechartPie,
 } from "recharts";
 
-import { getCityName, getStateName } from "../../utils/googleMap";
+import {
+  getCityName,
+  getStateName,
+  getStateShortName,
+} from "../../utils/googleMap";
 import { capitalizeString } from "../../utils/string";
 import { IState } from "../../reducers/index";
 import { ISentiment } from "../../interfaces/overview";
@@ -20,6 +24,7 @@ interface ISentimentCardOwnProps {}
 interface ISentimentCardStateProps {
   cityName: string;
   stateName: string;
+  stateShortName: string;
   sentiment: ISentiment | null;
 }
 
@@ -117,11 +122,17 @@ const SentimentCardComponent = ({
   cityName,
   stateName,
   sentiment,
+  stateShortName,
 }: ISentimentCardProps) => {
   // console.log("In SentimentCard, sentiment =", sentiment);
 
   const [activeIndex, setActiveIndex] = useState(0);
-  const title = composeTitle("Tweet Sentiment Data", stateName, cityName);
+  const title = composeTitle(
+    "Tweet Sentiment Data",
+    stateName,
+    cityName,
+    stateShortName
+  );
 
   if (!sentiment || !Object.keys(sentiment).length) {
     return (
@@ -196,13 +207,16 @@ const mapStateToProps = (state: IState) => {
 
   let cityName = "";
   let stateName = "";
+  let stateShortName = "";
 
   if (lastClickedInfo && lastClickedInfo.address) {
-    cityName = getCityName(lastClickedInfo.address);
-    stateName = getStateName(lastClickedInfo.address);
+    const { address } = lastClickedInfo;
+    cityName = getCityName(address);
+    stateName = getStateName(address);
+    stateShortName = getStateShortName(address);
   }
 
-  return { sentiment, cityName, stateName };
+  return { sentiment, cityName, stateName, stateShortName };
 };
 
 const SentimentCard = connect(mapStateToProps)(SentimentCardComponent);

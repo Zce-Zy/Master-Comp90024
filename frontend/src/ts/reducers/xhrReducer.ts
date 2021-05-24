@@ -1,4 +1,5 @@
 import {
+  CLEAR_LGA_DATA,
   LGA_DATA_RECEIVED,
   OVERVIEW_DATA_RECEIVED,
 } from "../actions/actionTypes";
@@ -23,6 +24,8 @@ export function xhrReducer(state = INIT_STATE, action: IAction) {
       return { ...state, overview: action.payload };
     case LGA_DATA_RECEIVED:
       return { ...state, lgaData: action.payload };
+    case CLEAR_LGA_DATA:
+      return { ...state, lgaData: null };
     default:
       return state;
   }

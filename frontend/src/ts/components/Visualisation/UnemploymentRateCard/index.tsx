@@ -19,7 +19,11 @@ import {
   IUnemploymentRate,
 } from "../../../interfaces/overview";
 import { IState } from "../../../reducers/index";
-import { getCityName, getStateName } from "../../../utils/googleMap";
+import {
+  getCityName,
+  getStateName,
+  getStateShortName,
+} from "../../../utils/googleMap";
 import { composeTitle } from "../../../utils/titleHelper";
 import { YearSelector } from "./YearSelector";
 import {
@@ -36,6 +40,7 @@ interface IUnemploymentRateCardOwnProps {}
 interface IUnemploymentRateCardStateProps {
   cityName: string;
   stateName: string;
+  stateShortName: string;
   data: IUnemploymentRate[];
 }
 
@@ -46,6 +51,7 @@ interface IUnemploymentRateCardProps
 const UnemploymentRateCardComponent = ({
   cityName,
   stateName,
+  stateShortName,
   data,
 }: IUnemploymentRateCardProps) => {
   const [selectedYear, setSelectedYear] = useState(AVERAGE_VALUE);
@@ -57,7 +63,7 @@ const UnemploymentRateCardComponent = ({
       ? " from 2011 - 2020"
       : ` in ${selectedYear}`);
 
-  title = composeTitle(title, stateName, cityName);
+  title = composeTitle(title, stateName, cityName, stateShortName);
 
   let dataOfYear: IUnemploymentQuarterRate[];
 
@@ -131,15 +137,18 @@ const mapStateToProps = (state: IState) => {
 
   let cityName = "";
   let stateName = "";
+  let stateShortName = "";
 
   if (lastClickedInfo && lastClickedInfo.address) {
-    cityName = getCityName(lastClickedInfo.address);
-    stateName = getStateName(lastClickedInfo.address);
+    const { address } = lastClickedInfo;
+    cityName = getCityName(address);
+    stateName = getStateName(address);
+    stateShortName = getStateShortName(address);
   }
 
   const data = unsortedData.sort((a, b) => a.year - b.year);
 
-  return { cityName, stateName, data };
+  return { cityName, stateName, data, stateShortName };
 };
 
 const UnemploymentRateCard = connect(mapStateToProps)(

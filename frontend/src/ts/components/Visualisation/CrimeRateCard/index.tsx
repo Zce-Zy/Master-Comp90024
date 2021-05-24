@@ -11,7 +11,11 @@ import {
   LineChart as RechartLine,
 } from "recharts";
 
-import { getCityName, getStateName } from "../../../utils/googleMap";
+import {
+  getCityName,
+  getStateName,
+  getStateShortName,
+} from "../../../utils/googleMap";
 import { IState } from "../../../reducers";
 import { ICrimeRate } from "../../../interfaces/overview";
 import { DataTypeSelector } from "./DataTypeSelector";
@@ -26,6 +30,7 @@ interface ICrimeRateCardOwnProps {}
 interface ICrimeRateCardStateProps {
   cityName: string;
   stateName: string;
+  stateShortName: string;
   data: ICrimeRate[];
 }
 
@@ -36,12 +41,14 @@ interface ICrimeRateCardProps
 const CrimeRateCardComponent = ({
   cityName,
   stateName,
+  stateShortName,
   data,
 }: ICrimeRateCardProps) => {
   const title = composeTitle(
     "Crime Rates from 2011 to 2020",
     stateName,
-    cityName
+    cityName,
+    stateShortName
   );
 
   const [dataType, setDataType] = useState(TOTAL_COUNT_VALUE);
@@ -95,15 +102,18 @@ const mapStateToProps = (state: IState): ICrimeRateCardStateProps => {
 
   let cityName = "";
   let stateName = "";
+  let stateShortName = "";
 
   if (lastClickedInfo && lastClickedInfo.address) {
-    cityName = getCityName(lastClickedInfo.address);
-    stateName = getStateName(lastClickedInfo.address);
+    const { address } = lastClickedInfo;
+    cityName = getCityName(address);
+    stateName = getStateName(address);
+    stateShortName = getStateShortName(address);
   }
 
   const data = unsortedData.sort((a, b) => a.year - b.year);
 
-  return { cityName, stateName, data };
+  return { cityName, stateName, data, stateShortName };
 };
 
 const CrimeRateCard = connect(mapStateToProps)(CrimeRateCardComponent);
