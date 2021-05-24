@@ -8,7 +8,7 @@ export const getQuarterLabel = (quarter: number): string => {
       return `1st Quarter (${season})`;
     case 2:
       return `2nd Quarter (${season})`;
-    case 2:
+    case 3:
       return `3rd Quarter (${season})`;
     default:
       return `4th Quarter (${season})`;
