@@ -10,6 +10,65 @@ db = couch['wh_db']
 city_location = pd.read_csv("AURData/location.csv")
 
 
+#Give SA4_CentralPoint Location
+SA4_location = {"Ballarat" : [-37.549999, 143.850006],
+                "Bendigo":[-36.757786, 144.278702],
+                "Geelong":[-38.150002, 144.350006],
+                "Hume":[-36.1050, 147.0253],
+                "Latrobe - Gippsland":[-38.255603, 146.471993],
+                "Melbourne":[-37.8136, 144.9036],
+                "Mornington Peninsula":[-38.285405, 145.093449],
+                "North West":[-36.716667, 142.199997],
+                "Shepparton":[-36.383331, 145.399994],
+                "Warrnambool and South West":[-38.3818, 142.4880],
+                "Unknown":[0,0]}
+
+
+
+##Get LGA Tweet Count Data
+def get_lgaCount():
+    Lga = []
+    VIClis = city_location[['lga_name','latitude','longitude']].to_numpy().tolist()
+    for item in db.view('CountOrSum/CountTweetslga_name', group=True, stale = "update_after"):
+        dic = {"lga_name": item["key"].strip("\\t"), "Count": item["value"]}
+        Lga.append(dic)
+    df = pd.DataFrame(Lga)
+    Lgad=df.set_index("lga_name").T.to_dict()
+    for element in Lgad.keys():
+            for text in VIClis:
+                if text[0] in element:
+                    Lgad[element]["lat"] = text[1]
+                    Lgad[element]["lon"] = text[2]
+    return Lgad
+
+##Get City Tweet Count Data
+
+def get_CityCount():
+    city = []
+    for item in db.view('CountOrSum/CountTweetscity_name', group=True, stale = "update_after"):
+        dic = {"city_name": item["key"], "Count": item["value"]}
+        city.append(dic)
+        df = pd.DataFrame(city)
+    return df.set_index("city_name").T
+
+def get_Citylocation():
+    #Give City Location
+    VIClis = city_location[['suburb','latitude','longitude']].to_numpy().tolist()
+    city = []
+    for item in db.view('CountOrSum/CountTweetscity_name', group=True, stale = "update_after"):
+        dic = {"city_name": item["key"], "Count": item["value"]}
+        city.append(dic)
+        df = pd.DataFrame(city)
+    citydic = df.set_index("city_name").T.to_dict()
+    for element in VIClis:
+        if element[0] in citydic:
+            citydic[element[0]]["lat"] = element[1]
+            citydic[element[0]]["lon"] = element[2]
+    return citydic
+
+
+
+
 ##Get lgaOverall sentiment data
 def get_lga_Senti_Overview():
     SA4 = []
@@ -52,6 +111,27 @@ def ovall():
             Lis_all.append(element)
     return get_overview(Lis_all)
 
+def ov2019():
+    Lis_2019 = []
+    for element in overalldata:
+        if int(element[1]) == 2019 :
+            Lis_2019.append(element)
+    return get_overview(Lis_2019)
+
+def ov2020():
+    Lis_2020 = []
+    for element in overalldata:
+        if int(element[1]) == 2020 :
+            Lis_2020.append(element)
+    return get_overview(Lis_2020)
+
+def ov2021():
+    Lis_2021 = []
+    for element in overalldata:
+        if int(element[1]) == 2021 :
+            Lis_2021.append(element)
+    return get_overview(Lis_2021)
+
 
 #OverView of Individual LGA
 def get_crimeLis(name):
@@ -84,7 +164,7 @@ def get_unedata():
         data = list(reader)
     total = {}
     year = [2011,2012,2013,2014,2015,2016,2017,2018,2019,2020]
-    quater = [1,2,3,4]
+    quarter = [1,2,3,4]
     for element in data:
         i = 2
         name = re.sub(u"\\(.*?\\)|\\{.*?}|\\[.*?]", "", element[0]).rstrip()
@@ -93,8 +173,8 @@ def get_unedata():
             onequt = {}
             onequt["year"] = num
             onequt["data"] = {}
-            for qut in quater:
-                onequt["data"]["quater"] = qut
+            for qut in quarter:
+                onequt["data"]["quarter"] = qut
                 onequt["data"]["rate"] = element[i]
                 z = onequt["data"].copy()
                 a = onequt.copy()
@@ -124,7 +204,7 @@ def get_oneCity(name):
     overview = {}
     for key,value in get_indicity(overalldata).items():
         if name in key:
-            overview["Sentiment"] = value
+            overview["sentiment"] = value
     
     #overview["crimeRates"] = get_crimeLis(name)
     for key,value in get_unedata().items():
@@ -156,14 +236,14 @@ def get_untotal():
     rt = final/len(data)
     total = []
     year = [2011,2012,2013,2014,2015,2016,2017,2018,2019,2020]
-    quater = [1,2,3,4]
+    quarter = [1,2,3,4]
     i=0
     for num in year:
         onequt = {}
         onequt["year"] = num
         onequt["data"] = {}
-        for qut in quater:
-            onequt["data"]["quater"] = qut
+        for qut in quarter:
+            onequt["data"]["quarter"] = qut
             onequt["data"]["rate"] = rt[i]
             z = onequt["data"].copy()
             a = onequt.copy()
@@ -187,8 +267,8 @@ def get_count_total():
 ##get over all
 def get_ovlga():
     overview = {}
-    overview["Sentiment"] = get_count_total()
-    overview["unemploymentRates"] = get_unedata()
+    overview["sentiment"] = get_count_total()
+    overview["unemploymentRates"] = get_untotal()
     overview["crimeRates"] = get_crimeLis("Total")
     return overview
 
