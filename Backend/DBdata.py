@@ -5,8 +5,8 @@ import csv
 import re
 import numpy as np
 
-couch = couchdb.Server('http://user:pass@127.0.0.1:5984')
-db = couch['wh_db']
+couch = couchdb.Server('http://user:password@172.26.133.48:5984')
+db = couch['tweets_dic']
 city_location = pd.read_csv("AURData/location.csv")
 
 
