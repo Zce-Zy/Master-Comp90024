@@ -1,0 +1,4 @@
+{
+  "/api/Lga_Senti_Overview": "/Overview",
+  "/api/Lga_Senti_Overview/:lgaName": "/data"
+}
