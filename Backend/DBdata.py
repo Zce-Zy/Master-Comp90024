@@ -175,7 +175,7 @@ def get_unedata():
             onequt["data"] = {}
             for qut in quarter:
                 onequt["data"]["quarter"] = qut
-                onequt["data"]["rate"] = element[i]
+                onequt["data"]["rate"] = float(element[i])
                 z = onequt["data"].copy()
                 a = onequt.copy()
                 a["data"] = z
@@ -244,7 +244,7 @@ def get_untotal():
         onequt["data"] = {}
         for qut in quarter:
             onequt["data"]["quarter"] = qut
-            onequt["data"]["rate"] = rt[i]
+            onequt["data"]["rate"] = float(rt[i])
             z = onequt["data"].copy()
             a = onequt.copy()
             a["data"] = z
