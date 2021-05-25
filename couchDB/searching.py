@@ -97,7 +97,7 @@ def get_database(server_name, database_name):
             # return db
     except Exception as e:
         print(e)
-        print('Unable to get')
+        print('Unable to get database')
 
 
 user = 'admin'
