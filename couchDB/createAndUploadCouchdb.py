@@ -1,6 +1,6 @@
 import couchdb
 import json
-from datetime import datetime
+# from datetime import datetime
 
 #connect to couchDB
 def collect_server(user, password):
