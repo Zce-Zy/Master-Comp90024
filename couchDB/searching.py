@@ -62,7 +62,7 @@ def sentiment_score(text_string):
 #         sa4_location = sa4_location.to_string(index=False)
 #     return (sa4_location)
 
-lga_data = pd.read_csv('city_LGA.csv')
+lga_data = pd.read_csv('/home/ubuntu/comp90024/Master-Comp90024-main/couchDB/city_LGA.csv')
 def match_lgaLocation(city_name):
     lga_location = lga_data[lga_data['city_name'] == city_name]['LGA_name']
     if len(lga_location) == 0:
