@@ -29,7 +29,7 @@ password = '9988'
 couchServer = collect_server(user, password)
 db = get_database(couchServer, 'tweets_dic')
 
-old_tweet_file = 'old_data.json'
+old_tweet_file = '/home/ubuntu/comp90024/Master-Comp90024-main/couchDB/old_data.json'
 with open(old_tweet_file) as f:
     data = json.load(f)
     print('start upload tweets')
