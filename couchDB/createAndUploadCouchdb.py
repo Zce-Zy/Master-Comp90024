@@ -42,11 +42,11 @@ with open(old_tweet_file) as f:
 #######################################################################
 # upload views
 print('start to upload views to couchDB')
-with open('CountOrSum.json') as f:
+with open('/home/ubuntu/comp90024/Master-Comp90024-main/couchDB/CountOrSum.json') as f:
     view_1 = json.load(f)
     db.save(view_1)
 
-with open('SummaryByRegion.json') as f:
+with open('/home/ubuntu/comp90024/Master-Comp90024-main/couchDB/SummaryByRegion.json') as f:
     view_2 = json.load(f)
     db.save(view_2)
 print('finished upload process. All required information is uploaded to couchDB.')
