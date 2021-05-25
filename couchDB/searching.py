@@ -4,10 +4,10 @@ from textblob import TextBlob
 import time
 import couchdb
 import json
-import pandas as pd
+# import pandas as pd
 from http.client import IncompleteRead as http_incompleteRead
 from urllib3.exceptions import IncompleteRead as urllib3_incompleteRead
-import sys
+# import sys
 
 # LZT tweeter key
 consumer_key = 'syvBAqd7spC9PbV622K3UNaB6'
