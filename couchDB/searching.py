@@ -94,7 +94,7 @@ def get_database(server_name, database_name):
             print('database not exist.')
             # db = server_name.create(database_name)
             # print('Database: %s not found. Created database' % database_name)
-            return db
+            # return db
     except Exception as e:
         print(e)
         print('Unable to get database')
