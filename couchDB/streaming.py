@@ -1,9 +1,9 @@
 import tweepy
-import pandas as pd
+# import pandas as pd
 from textblob import TextBlob
 import couchdb
 import json
-import sys
+# import sys
 import time
 import http.client
 from http.client import IncompleteRead as http_incompleteRead
