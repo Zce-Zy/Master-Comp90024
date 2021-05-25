@@ -101,7 +101,7 @@ def objectProcess(string):
 
 def collect_server(user, password):
     try:
-        couchServer = couchdb.Server('http://%s:%s@172.26.133.48:5984/' % (user, password))
+        couchServer = couchdb.Server('http://%s:%s@172.26.129.241:5984/' % (user, password))
         print('Couchdb is conllected')
         return couchServer
     except Exception as e:
@@ -126,7 +126,7 @@ def get_database(server_name, database_name):
 
 
 user = 'admin'
-password = 'password'
+password = '9988'
 db_name = 'tweets_dic'
 couchServer = collect_server(user, password)
 db = get_database(couchServer, db_name)
