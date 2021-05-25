@@ -56,4 +56,4 @@ api.add_resource(Lga_Senti_OverviewInd, '/api/Lga_Senti_Overview/<Lganame>')
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0',port=5000)
