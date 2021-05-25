@@ -21,7 +21,7 @@ except:
             print("Can not access to the database! \n Please Check your internet.")
 
 
-city_location = pd.read_csv("AURData/location.csv")
+city_location = pd.read_csv("/home/ubuntu/comp90024/Master-Comp90024-main/Backend/AURData/location.csv")
 
 
 #Give SA4_CentralPoint Location
@@ -150,7 +150,7 @@ def ov2021():
 #OverView of Individual LGA
 def get_crimeLis(name):
     #Data Process&Clean
-    df = pd.read_csv('AURData/crime_rate.csv')
+    df = pd.read_csv('/home/ubuntu/comp90024/Master-Comp90024-main/Backend/AURData/crime_rate.csv')
     df["Local Government Area"] = df["Local Government Area"].str.lstrip()
     df = df.drop(["Year ending","Police Region"],axis=1)
     ##Process Data only remain what we wan
@@ -173,7 +173,7 @@ def get_crimeLis(name):
 
 ##get un employment data
 def get_unedata():
-    with open('AURData/unemp_rate.csv', newline='') as f:
+    with open('/home/ubuntu/comp90024/Master-Comp90024-main/Backend/AURData/unemp_rate.csv', newline='') as f:
         reader = csv.reader(f)
         data = list(reader)
     data.pop(0)
@@ -234,7 +234,7 @@ def get_oneCity(name):
 
 ##get un employment data
 def get_untotal():
-    with open('AURData/unemp_rate.csv', newline='') as f:
+    with open('/home/ubuntu/comp90024/Master-Comp90024-main/Backend/AURData/unemp_rate.csv', newline='') as f:
         reader = csv.reader(f)
         data = list(reader)
         data.pop(0)
