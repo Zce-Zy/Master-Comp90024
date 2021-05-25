@@ -5,7 +5,7 @@ from datetime import datetime
 #connect to couchDB
 def collect_server(user, password):
     try:
-        couchServer = couchdb.Server('http://%s:%s@172.26.133.48:5984/' % (user, password))
+        couchServer = couchdb.Server('http://%s:%s@172.26.129.241:5984/' % (user, password))
         print('Couchdb is conllected')
         return couchServer
     except Exception as e:
@@ -23,8 +23,8 @@ def get_database(server_name, database_name):
         return db
 
 
-user = 'user'
-password = 'pass'
+user = 'admin'
+password = '9988'
 
 couchServer = collect_server(user, password)
 db = get_database(couchServer, 'tweets_dic')
