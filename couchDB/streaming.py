@@ -1,5 +1,5 @@
 import tweepy
-# import pandas as pd
+import pandas as pd
 from textblob import TextBlob
 import couchdb
 import json
