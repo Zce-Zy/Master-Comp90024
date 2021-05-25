@@ -5,8 +5,8 @@ import csv
 import re
 import numpy as np
 
-couch = couchdb.Server('http://user:password@172.26.133.48:5984')
-db = couch['tweets_dic']
+couch = couchdb.Server('http://user:pass@127.0.0.1:5984')
+db = couch['wh_db']
 city_location = pd.read_csv("AURData/location.csv")
 
 
@@ -162,7 +162,6 @@ def get_unedata():
     with open('AURData/unemp_rate.csv', newline='') as f:
         reader = csv.reader(f)
         data = list(reader)
-    data.pop(0)
     total = {}
     year = [2011,2012,2013,2014,2015,2016,2017,2018,2019,2020]
     quarter = [1,2,3,4]
@@ -177,15 +176,13 @@ def get_unedata():
             for qut in quarter:
                 onequt["data"]["quarter"] = qut
                 onequt["data"]["rate"] = element[i]
-                if onequt["data"]["rate"] == "-":
-                    onequt["data"]["rate"] = 0
-                else:
-                    onequt["data"]["rate"] = float(element[i])
                 z = onequt["data"].copy()
                 a = onequt.copy()
                 a["data"] = z
                 i+=1
                 total[name].append(a)
+                
+    total.pop("LGA")
     return total
 
 ##Format we want to output
@@ -247,7 +244,7 @@ def get_untotal():
         onequt["data"] = {}
         for qut in quarter:
             onequt["data"]["quarter"] = qut
-            onequt["data"]["rate"] = float(rt[i])
+            onequt["data"]["rate"] = rt[i]
             z = onequt["data"].copy()
             a = onequt.copy()
             a["data"] = z
