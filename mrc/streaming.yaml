@@ -1,0 +1,16 @@
+---
+- hosts: masterNode
+  remote_user: ubuntu
+  vars:
+    ansible_python_interpreter: /usr/bin/python3
+  vars_files:
+    - host_vars/nginx.yaml
+    - host_vars/local_vars.yaml
+    - host_vars/remote_vars.yaml
+    - host_vars/docker.yaml
+    - host_vars/couchdb.yaml
+    
+  gather_facts: true
+  
+  roles:
+    - role: streaming

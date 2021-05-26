@@ -1,0 +1,15 @@
+---
+environment_proxy: /etc/environment
+proxy:
+    - http_proxy: "{{ proxy_address }}"
+    - https_proxy: "{{ proxy_address }}"
+    - ftp_proxy: "{{ proxy_address }}"
+    - 'no_proxy=localhost,127.0.0.1,localaddress,172.16.0.0/12,.melbourne.rc.nectar.org.au,.storage.unimelb.edu.au,.cloud.unimelb.edu.au'
+
+masterNode: 172.26.129.241
+
+slaveNode0: 172.26.131.22
+
+slaveNode1: 172.26.133.132
+
+nginxNode: 172.26.133.48

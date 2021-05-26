@@ -1,0 +1,7 @@
+masterNode: 172.26.129.241
+
+slaveNode0: 172.26.131.22
+
+slaveNode1: 172.26.133.132
+
+Nodename: master
